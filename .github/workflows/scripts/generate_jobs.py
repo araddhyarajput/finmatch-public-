@@ -1,27 +1,9 @@
 import json, random, datetime
-
-companies = ["Acme Corp", "Bright Capital", "NextGen Tech", "Future Finance", "Growth Partners"]
-roles = ["Financial Analyst", "FP&A Analyst", "Corporate Finance Associate", "Valuations Analyst", "Strategic Finance Associate"]
-locations = ["New York, NY", "Remote", "Boston, MA", "Chicago, IL", "San Francisco, CA"]
-tags_list = [
-    ["FP&A", "Excel", "Forecasting", "Budgeting"],
-    ["Valuations", "Financial Modeling", "M&A", "Presentation Skills"],
-    ["SQL", "Data Analysis", "Scenario Planning", "Power BI"]
+seed = [
+  {"title":"Financial Analyst — FP&A","company":"Acme Corp","location":"New York, NY","salary":"$75k–$85k","tags":["FP&A","Excel","Forecasting","Budgeting"],"url":"https://example.com/job1"},
+  {"title":"Strategic Finance Analyst","company":"Bright Capital","location":"Remote (US)","salary":"$82k–$95k","tags":["SQL","Power BI","Scenario Planning"],"url":"https://example.com/job2"},
+  {"title":"Corporate Finance Analyst","company":"NextGen Tech","location":"Boston, MA","salary":"$70k–$80k","tags":["Valuation","Modeling","Stakeholders"],"url":"https://example.com/job3"}
 ]
-
-jobs = []
-for _ in range(5):
-    jobs.append({
-        "title": random.choice(roles),
-        "company": random.choice(companies),
-        "location": random.choice(locations),
-        "posted_days": random.randint(0, 7),
-        "salary": f"${random.randint(70, 85)}k–${random.randint(85, 95)}k",
-        "tags": random.choice(tags_list),
-        "url": "https://example.com/job" + str(random.randint(1,100))
-    })
-
-with open("jobs.json", "w") as f:
-    json.dump(jobs, f, indent=2)
-
-print(f"Updated jobs.json with {len(jobs)} jobs on {datetime.datetime.now()}")
+for j in seed: j["posted_days"] = random.randint(0,6)
+with open("jobs.json","w") as f: json.dump(seed, f, indent=2)
+print("Updated jobs.json", datetime.datetime.now())
