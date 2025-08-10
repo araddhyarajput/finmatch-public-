@@ -1,20 +1,29 @@
 [
   {
-    "title": "Financial Analyst — FP&A",
-    "company": "Visa",
-    "location": "Austin, TX (Hybrid)",
-    "posted_days": 2,
-    "salary": "$78–88k",
-    "tags": ["Excel","Power BI","Forecasting","Early-career"],
-    "url": "https://www.visa.com/careers"
+    "title": "Financial Analyst",
+    "company": "Acme Corp",
+    "location": "New York, NY",
+    "posted_days": 1,
+    "salary": "$75k–$85k",
+    "tags": ["FP&A", "Excel", "Forecasting", "Budgeting"],
+    "url": "https://example.com/job1"
   },
   {
-    "title": "Strategic Finance Analyst",
-    "company": "Chime",
-    "location": "Remote (US)",
-    "posted_days": 1,
-    "salary": "$82–95k",
-    "tags": ["SQL","Dashboarding","SaaS"],
-    "url": "https://www.chime.com/careers"
+    "title": "Corporate Finance Associate",
+    "company": "Bright Capital",
+    "location": "Remote",
+    "posted_days": 2,
+    "salary": "$80k–$90k",
+    "tags": ["Valuations", "Financial Modeling", "M&A", "Presentation Skills"],
+    "url": "https://example.com/job2"
+  },
+  {
+    "title": "FP&A Analyst",
+    "company": "NextGen Tech",
+    "location": "Boston, MA",
+    "posted_days": 3,
+    "salary": "$70k–$80k",
+    "tags": ["SQL", "Data Analysis", "Scenario Planning", "Power BI"],
+    "url": "https://example.com/job3"
   }
 ]
