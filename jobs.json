@@ -1,74 +1,29 @@
 [
   {
-    "title": "Financial Analyst - FP&A",
+    "title": "Financial Analyst — FP&A",
     "company": "Visa",
-    "location": "Austin, TX (Hybrid)",
+    "location": "Austin, TX",
     "posted_days": 2,
-    "salary": "$78k–$88k",
-    "tags": ["Excel", "Power BI", "Forecasting", "Early-career"],
-    "url": "https://jobs.greenhouse.io/"
+    "salary": "$78–88k",
+    "tags": ["Excel", "Power BI", "Forecasting"],
+    "url": "https://example.com/apply"
   },
   {
     "title": "Strategic Finance Analyst",
     "company": "Chime",
-    "location": "Remote (US)",
+    "location": "Remote",
     "posted_days": 1,
-    "salary": "$82k–$95k",
+    "salary": "$82–95k",
     "tags": ["SQL", "Dashboarding", "SaaS"],
-    "url": "https://jobs.lever.co/"
+    "url": "https://example.com/apply"
   },
   {
     "title": "Corporate Finance Analyst",
     "company": "S&P Global",
-    "location": "New York, NY (Hybrid)",
+    "location": "New York, NY",
     "posted_days": 3,
-    "salary": "$70k–$82k",
+    "salary": "$70–82k",
     "tags": ["Valuation", "Budgeting", "Stakeholders"],
-    "url": "https://careers.spglobal.com/"
-  },
-  {
-    "title": "Valuations Analyst",
-    "company": "Duff & Phelps",
-    "location": "Chicago, IL (Onsite)",
-    "posted_days": 4,
-    "salary": "$75k–$90k",
-    "tags": ["DCF", "WACC", "Excel"],
-    "url": "https://careers.kroll.com/"
-  },
-  {
-    "title": "Revenue Analyst",
-    "company": "Snowflake",
-    "location": "Remote (US)",
-    "posted_days": 0,
-    "salary": "$80k–$95k",
-    "tags": ["SQL", "SaaS Metrics", "Tableau"],
-    "url": "https://careers.snowflake.com/"
-  },
-  {
-    "title": "Finance Data Analyst",
-    "company": "Wayfair",
-    "location": "Boston, MA (Hybrid)",
-    "posted_days": 5,
-    "salary": "$72k–$85k",
-    "tags": ["Python", "Power BI", "Variance Analysis"],
-    "url": "https://www.aboutwayfair.com/careers"
-  },
-  {
-    "title": "Strategy & Operations Analyst",
-    "company": "DoorDash",
-    "location": "San Francisco, CA (Hybrid)",
-    "posted_days": 6,
-    "salary": "$85k–$100k",
-    "tags": ["Modeling", "KPI", "Stakeholders"],
-    "url": "https://careers.doordash.com/"
-  },
-  {
-    "title": "Junior FP&A Analyst",
-    "company": "ServiceNow",
-    "location": "Dallas, TX (Onsite)",
-    "posted_days": 2,
-    "salary": "$70k–$80k",
-    "tags": ["Budgeting", "Forecasting", "Excel"],
-    "url": "https://careers.servicenow.com/"
+    "url": "https://example.com/apply"
   }
 ]
