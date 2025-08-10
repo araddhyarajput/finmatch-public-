@@ -1,56 +1,69 @@
 [
   {
-    "title": "Financial Analyst — FP&A",
-    "company": "Visa",
-    "location": "Austin, TX (Hybrid)",
-    "posted_days": 2,
-    "salary": "$78k–$88k",
-    "tags": ["Excel","Power BI","Forecasting"],
-    "url": "https://jobs.greenhouse.io/visa"
-  },
-  {
-    "title": "Strategic Finance Analyst",
-    "company": "Chime",
-    "location": "Remote (US)",
+    "title": "FP&A Analyst - Data Insights",
+    "company": "datadog",
+    "location": "New York, New York, USA",
     "posted_days": 1,
-    "salary": "$82k–$95k",
-    "tags": ["SQL","Dashboarding","SaaS"],
-    "url": "https://jobs.lever.co/chime"
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.datadoghq.com/detail/6997811/?gh_jid=6997811"
   },
   {
-    "title": "Corporate Finance Analyst",
-    "company": "S&P Global",
-    "location": "New York, NY (Hybrid)",
-    "posted_days": 3,
-    "salary": "$70k–$82k",
-    "tags": ["Valuation","Budgeting","Stakeholders"],
-    "url": "https://careers.spglobal.com/"
-  },
-  {
-    "title": "Valuations Analyst",
-    "company": "Kroll (Duff & Phelps)",
-    "location": "Chicago, IL (Onsite)",
-    "posted_days": 4,
-    "salary": "$75k–$90k",
-    "tags": ["DCF","WACC","Excel"],
-    "url": "https://careers.kroll.com/"
-  },
-  {
-    "title": "Revenue Analyst",
-    "company": "Snowflake",
-    "location": "Remote (US)",
-    "posted_days": 0,
-    "salary": "$80k–$95k",
-    "tags": ["SQL","SaaS Metrics","Tableau"],
-    "url": "https://careers.snowflake.com/us/en"
-  },
-  {
-    "title": "Finance Data Analyst",
-    "company": "Wayfair",
-    "location": "Boston, MA (Hybrid)",
+    "title": "Sr. Associate, Corporate Finance",
+    "company": "chime",
+    "location": "San Francisco, CA",
     "posted_days": 5,
-    "salary": "$72k–$85k",
-    "tags": ["Python","Power BI","Variance Analysis"],
-    "url": "https://www.aboutwayfair.com/careers"
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/7991036002?gh_jid=7991036002"
+  },
+  {
+    "title": "FP&A Analyst",
+    "company": "datadog",
+    "location": "New York, New York, USA",
+    "posted_days": 6,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.datadoghq.com/detail/6826438/?gh_jid=6826438"
+  },
+  {
+    "title": "Senior FP&A Analyst - NYC",
+    "company": "datadog",
+    "location": "New York, New York, USA",
+    "posted_days": 6,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.datadoghq.com/detail/7027764/?gh_jid=7027764"
+  },
+  {
+    "title": "Senior FP&A Analyst - R&D",
+    "company": "datadog",
+    "location": "New York, New York, USA",
+    "posted_days": 6,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.datadoghq.com/detail/7091862/?gh_jid=7091862"
+  },
+  {
+    "title": "Senior Sales Revenue Analyst - US East",
+    "company": "datadog",
+    "location": "New York, New York, USA",
+    "posted_days": 6,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.datadoghq.com/detail/7091867/?gh_jid=7091867"
+  },
+  {
+    "title": "Strategic Finance Associate",
+    "company": "chime",
+    "location": "San Francisco, CA",
+    "posted_days": 9,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/7864152002?gh_jid=7864152002"
   }
 ]
