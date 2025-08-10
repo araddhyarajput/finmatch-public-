@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://araddhyarajput.github.io/finmatch-public-/sitemap.xml
