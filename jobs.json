@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Financial Analyst — FP&A",
+    "company": "Visa",
+    "location": "Austin, TX (Hybrid)",
+    "posted_days": 2,
+    "salary": "$78–88k",
+    "tags": ["Excel","Power BI","Forecasting","Early-career"],
+    "url": "https://www.visa.com/careers"
+  },
+  {
+    "title": "Strategic Finance Analyst",
+    "company": "Chime",
+    "location": "Remote (US)",
+    "posted_days": 1,
+    "salary": "$82–95k",
+    "tags": ["SQL","Dashboarding","SaaS"],
+    "url": "https://www.chime.com/careers"
+  }
+]
