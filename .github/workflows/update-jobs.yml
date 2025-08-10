@@ -1,33 +1,32 @@
-name: Update jobs.json
+name: Update Jobs List
 
 on:
   schedule:
-    - cron: "0 */1 * * *"   # every 3 hours
-  workflow_dispatch:        # allow manual run
+    - cron: "0 * * * *" # every hour (UTC)
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update:
+  update-jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Use Node 20 (has global fetch)
+        uses: actions/setup-node@v4
         with:
-          python-version: '3.11'
+          node-version: '20'
 
-      - name: Generate jobs.json
-        run: |
-          python scripts/generate_jobs.py
+      - name: Fetch latest jobs (Greenhouse + Lever)
+        run: node fetch-jobs.mjs
 
-      - name: Commit & push changes
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add jobs.json
-          git commit -m "Auto-update jobs.json [skip ci]" || echo "No changes"
+          git commit -m "Auto-update jobs.json [hourly]" || echo "No changes"
           git push
