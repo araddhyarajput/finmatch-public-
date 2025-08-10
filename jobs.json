@@ -1,20 +1,74 @@
 [
   {
-    "title": "Financial Analyst",
-    "company": "Google",
-    "location": "New York, NY",
+    "title": "Financial Analyst - FP&A",
+    "company": "Visa",
+    "location": "Austin, TX (Hybrid)",
     "posted_days": 2,
-    "salary": "$90k–$110k",
-    "tags": ["FP&A", "Excel", "SQL", "Remote OK"],
-    "url": "https://careers.google.com/jobs/results/123456"
+    "salary": "$78k–$88k",
+    "tags": ["Excel", "Power BI", "Forecasting", "Early-career"],
+    "url": "https://jobs.greenhouse.io/"
   },
   {
-    "title": "FP&A Associate",
-    "company": "Amazon",
-    "location": "Boston, MA",
+    "title": "Strategic Finance Analyst",
+    "company": "Chime",
+    "location": "Remote (US)",
+    "posted_days": 1,
+    "salary": "$82k–$95k",
+    "tags": ["SQL", "Dashboarding", "SaaS"],
+    "url": "https://jobs.lever.co/"
+  },
+  {
+    "title": "Corporate Finance Analyst",
+    "company": "S&P Global",
+    "location": "New York, NY (Hybrid)",
+    "posted_days": 3,
+    "salary": "$70k–$82k",
+    "tags": ["Valuation", "Budgeting", "Stakeholders"],
+    "url": "https://careers.spglobal.com/"
+  },
+  {
+    "title": "Valuations Analyst",
+    "company": "Duff & Phelps",
+    "location": "Chicago, IL (Onsite)",
     "posted_days": 4,
+    "salary": "$75k–$90k",
+    "tags": ["DCF", "WACC", "Excel"],
+    "url": "https://careers.kroll.com/"
+  },
+  {
+    "title": "Revenue Analyst",
+    "company": "Snowflake",
+    "location": "Remote (US)",
+    "posted_days": 0,
+    "salary": "$80k–$95k",
+    "tags": ["SQL", "SaaS Metrics", "Tableau"],
+    "url": "https://careers.snowflake.com/"
+  },
+  {
+    "title": "Finance Data Analyst",
+    "company": "Wayfair",
+    "location": "Boston, MA (Hybrid)",
+    "posted_days": 5,
+    "salary": "$72k–$85k",
+    "tags": ["Python", "Power BI", "Variance Analysis"],
+    "url": "https://www.aboutwayfair.com/careers"
+  },
+  {
+    "title": "Strategy & Operations Analyst",
+    "company": "DoorDash",
+    "location": "San Francisco, CA (Hybrid)",
+    "posted_days": 6,
     "salary": "$85k–$100k",
-    "tags": ["FP&A", "Forecasting", "Power BI"],
-    "url": "https://amazon.jobs/en/jobs/654321"
+    "tags": ["Modeling", "KPI", "Stakeholders"],
+    "url": "https://careers.doordash.com/"
+  },
+  {
+    "title": "Junior FP&A Analyst",
+    "company": "ServiceNow",
+    "location": "Dallas, TX (Onsite)",
+    "posted_days": 2,
+    "salary": "$70k–$80k",
+    "tags": ["Budgeting", "Forecasting", "Excel"],
+    "url": "https://careers.servicenow.com/"
   }
 ]
