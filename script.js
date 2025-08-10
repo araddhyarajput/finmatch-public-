@@ -50,17 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
   loadJobs();
-// Track Apply clicks in GA4
-document.addEventListener('click', (e) => {
-  const a = e.target.closest('a.apply-link');
-  if (!a) return;
-  window.gtag && gtag('event', 'apply_click', {
-    event_category: 'engagement',
-    event_label: a.href
-  });
-});
 
-  // ---- Track Apply clicks (GA4 optional)
+  // ---- Track Apply clicks (GA4)
   document.addEventListener('click', (e) => {
     const a = e.target.closest('a.apply-link');
     if (!a) return;
@@ -111,6 +102,8 @@ document.addEventListener('click', (e) => {
             event_category: 'lead',
             event_label: 'public_site'
           });
+          // Optional: redirect to a thank-you page for conversion tracking
+          // window.location.href = 'thanks.html';
         } else {
           let msg = 'Something went wrong. Please try again.';
           try {
