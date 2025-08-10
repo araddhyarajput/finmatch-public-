@@ -20,6 +20,10 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     }
   });
 });
+<section id="jobs" style="max-width:880px;margin:40px auto;padding:0 16px">
+  <h2>Latest Finance Jobs</h2>
+  <div id="jobsList">Loading jobs…</div>
+</section>
 
 // Year in footer
 document.getElementById('year').textContent = new Date().getFullYear();
