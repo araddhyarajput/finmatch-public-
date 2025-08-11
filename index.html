@@ -1,37 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="description" content="Fresh, high-fit finance jobs — ranked for you. FinMatch finds visa-friendly finance roles and preps tailored applications.">
-  <meta property="og:title" content="FinMatch — Fresh, high-fit finance jobs">
-  <meta property="og:description" content="Find new, visa-friendly finance roles ranked to your resume, with one-click tailored applications.">
-  <meta property="og:image" content="assets/logo.svg">
-  <meta property="og:url" content="https://araddhyarajput.github.io/finmatch-public-/">
-  <meta name="twitter:card" content="summary_large_image">
-
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>FinMatch — Fresh, high-fit finance jobs — ranked for you.</title>
-  <meta name="theme-color" content="#0b1630">
+
+  <meta name="description" content="Fresh, visa-friendly finance roles ranked to your profile with tailored applications." />
+  <meta name="theme-color" content="#0b1630" />
+  <meta property="og:title" content="FinMatch — Fresh, high-fit finance jobs" />
+  <meta property="og:description" content="Find new, visa-friendly finance roles ranked to your resume, with one-click tailored applications." />
+  <meta property="og:image" content="assets/logo.svg" />
+  <meta property="og:url" content="https://araddhyarajput.github.io/finmatch-public-/" />
+  <meta name="twitter:card" content="summary_large_image" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <!-- favicon optional once assets/logo.svg is present -->
-  <!-- <link rel="icon" href="assets/logo.svg"> -->
+
+  <!-- cache-bust so styles update -->
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
   <!-- HEADER -->
   <header class="site-header">
     <nav class="nav container" aria-label="Main">
       <a class="brand" href="#home" aria-label="FinMatch home">
-        <!-- Inline logo (no external file needed) -->
+        <!-- Inline logo (no external dep) -->
         <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-          <defs>
-            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0" stop-color="#0ea5a3"/><stop offset="1" stop-color="#00d1c7"/>
-            </linearGradient>
-          </defs>
+          <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#0ea5a3"/><stop offset="1" stop-color="#00d1c7"/></linearGradient></defs>
           <rect width="64" height="64" rx="14" fill="#0b1630"/>
           <g transform="translate(10,12)">
             <path d="M6 28c6-9 12-14 18-14s12 5 18 14" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
@@ -57,7 +54,7 @@
     </nav>
   </header>
 
-  <!-- MAIN CONTENT -->
+  <!-- MAIN -->
   <main>
     <!-- HERO -->
     <section class="hero container" id="home">
@@ -76,7 +73,7 @@
         </ul>
       </div>
 
-      <!-- UI mock with pills changed to scroll to Jobs -->
+      <!-- UI mock: pills now scroll to Jobs -->
       <figure class="hero-art" aria-label="FinMatch dashboard preview">
         <div class="ui-window">
           <div class="ui-top">
@@ -97,7 +94,7 @@
                   <p class="meta">Visa • Austin, TX • Posted 2d • Est. $78–88k</p>
                   <p class="reasons">+ Excel • + Power BI • + Forecasting</p>
                 </div>
-                <div class="right"><a href="#jobs" class="pill">See Jobs</a></div>
+                <div class="right"><a href="#jobs" class="pill-link">See Jobs</a></div>
               </li>
               <li class="ui-card">
                 <div class="left">
@@ -105,7 +102,7 @@
                   <p class="meta">Chime • Remote • Posted 1d • Est. $82–95k</p>
                   <p class="reasons">+ SQL • + Dashboarding • + SaaS</p>
                 </div>
-                <div class="right"><a href="#jobs" class="pill">See Jobs</a></div>
+                <div class="right"><a href="#jobs" class="pill-link">See Jobs</a></div>
               </li>
               <li class="ui-card">
                 <div class="left">
@@ -113,7 +110,7 @@
                   <p class="meta">S&amp;P Global • NYC • Posted 3d • Est. $70–82k</p>
                   <p class="reasons">+ Valuation • + Budgeting • + Stakeholders</p>
                 </div>
-                <div class="right"><a href="#jobs" class="pill">See Jobs</a></div>
+                <div class="right"><a href="#jobs" class="pill-link">See Jobs</a></div>
               </li>
             </ul>
           </div>
@@ -134,7 +131,7 @@
       </div>
     </section>
 
-    <!-- WHY CHOOSE US -->
+    <!-- WHY -->
     <section class="section container" id="why">
       <header class="section-head">
         <h2>Why FinMatch</h2>
@@ -158,28 +155,25 @@
       </header>
       <div class="pricing">
         <div class="plan">
-          <h3>Free</h3>
-          <p class="price">$0<span>/mo</span></p>
+          <h3>Free</h3><p class="price">$0<span>/mo</span></p>
           <ul role="list"><li>10 matches / month</li><li>Basic scoring & tracker</li><li>Email support</li></ul>
           <a class="btn btn-block" href="#waitlist">Start Free</a>
         </div>
         <div class="plan plan-pro">
           <div class="badge">Most Popular</div>
-          <h3>Pro</h3>
-          <p class="price">$19<span>/mo</span></p>
+          <h3>Pro</h3><p class="price">$19<span>/mo</span></p>
           <ul role="list"><li>Unlimited matches</li><li>Resume & cover tailoring</li><li>Daily email/Slack alerts</li><li>Visa-friendly filter & advanced search</li></ul>
           <a class="btn btn-block" href="#waitlist">Get Pro</a>
         </div>
         <div class="plan">
-          <h3>Institutional</h3>
-          <p class="price">from $250<span>/mo</span></p>
+          <h3>Institutional</h3><p class="price">from $250<span>/mo</span></p>
           <ul role="list"><li>Up to 50 users</li><li>Shared analytics dashboard</li><li>Priority support</li></ul>
           <a class="btn btn-block" href="#waitlist">Talk to Sales</a>
         </div>
       </div>
     </section>
 
-    <!-- JOBS SECTION -->
+    <!-- JOBS -->
     <section id="jobs" style="max-width:880px;margin:40px auto;padding:0 16px">
       <h2>Latest Finance Jobs</h2>
       <div id="jobsList">Loading jobs…</div>
@@ -205,17 +199,35 @@
   </main>
 
   <!-- FOOTER -->
-  <footer>
-  <div class="footer-content">
-    <p>&copy; <span id="year"></span> FinMatch. All rights reserved.</p>
-    <ul class="footer-links">
-      <li><a href="/finmatch-public-/privacy.html">Privacy</a></li>
-      <li><a href="/finmatch-public-/terms.html">Terms</a></li>
-    </ul>
-  </div>
-</footer>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <!-- small inline mark -->
+        <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#0ea5a3"/><stop offset="1" stop-color="#00d1c7"/></linearGradient></defs>
+          <rect width="64" height="64" rx="14" fill="#0b1630"/>
+          <g transform="translate(10,12)">
+            <path d="M6 28c6-9 12-14 18-14s12 5 18 14" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
+            <path d="M6 34h36" stroke="#e6ebf7" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="10" cy="28" r="2.2" fill="#e6ebf7"/>
+            <circle cx="28" cy="20" r="2.2" fill="#e6ebf7"/>
+            <circle cx="42" cy="28" r="2.2" fill="#e6ebf7"/>
+          </g>
+        </svg>
+        <div>
+          <strong>FinMatch</strong>
+          <div class="tiny">Fresh, high-fit finance jobs — ranked for you.</div>
+        </div>
+      </div>
+      <ul class="footer-links">
+        <li><a href="/finmatch-public-/privacy.html">Privacy</a></li>
+        <li><a href="/finmatch-public-/terms.html">Terms</a></li>
+      </ul>
+      <div class="copyright">© <span id="year"></span> FinMatch</div>
+    </div>
+  </footer>
 
-  <!-- SCRIPTS -->
   <script src="script.js"></script>
 </body>
 </html>
