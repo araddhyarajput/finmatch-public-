@@ -158,3 +158,77 @@ body{
   color:#0ea5a3;
 }
 #jobsList .job a.apply-link:hover{background:#0ea5a3;color:#fff}
+/* ---------- HERO pill text not cropped ---------- */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+  white-space: nowrap;   /* keep “See Jobs” on one line */
+  height: auto;          /* no fixed height */
+}
+
+/* Make the pill area align nicely in the mock */
+.ui-card .right { display: flex; align-items: center; }
+
+/* ---------- Jobs card: align Apply button ---------- */
+/* Mobile: stack naturally (default) */
+#jobsList .job {
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+
+/* Desktop/tablet: two-column layout with Apply pinned on the right */
+@media (min-width: 640px) {
+  #jobsList .job {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-auto-rows: auto;
+    column-gap: 16px;
+    row-gap: 6px;
+  }
+  #jobsList .job h3,
+  #jobsList .job p { grid-column: 1; }
+  #jobsList .job .apply-link {
+    grid-column: 2; 
+    grid-row: 1 / span 3;  /* align with top of card */
+    align-self: start;
+  }
+}
+
+/* Apply button styling */
+#jobsList .job .apply-link{
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid #0ea5a3;
+  color: #0ea5a3;
+}
+#jobsList .job .apply-link:hover{ background:#0ea5a3; color:#fff; }
+
+/* ---------- Footer: align + stack nicely on mobile ---------- */
+.site-footer { border-top: 1px solid #eaeaea; background: #fff; }
+.footer-inner {
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 0;
+}
+.footer-brand { display:flex; align-items:center; gap:10px; }
+.footer-links { display:flex; gap:16px; list-style:none; padding:0; margin:0; }
+.footer-links a { text-decoration:none; color:#334155; }
+.footer-links a:hover { text-decoration:underline; }
+@media (max-width: 640px){
+  .footer-inner { flex-direction: column; text-align: center; }
+  .footer-links { justify-content: center; }
+}
