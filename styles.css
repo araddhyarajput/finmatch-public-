@@ -1,21 +1,19 @@
 /* Base */
 * { box-sizing: border-box; }
 html, body { margin:0; padding:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:#0f172a; background:#fff; }
-a { color:#0ea5a3; }
+a { color:#0ea5a3; text-decoration:none; }
 .container { max-width:1100px; margin:0 auto; padding:0 16px; }
 
 /* Header / nav */
 .site-header { position:sticky; top:0; background:#fff; border-bottom:1px solid #eaeaea; z-index:10; }
 .nav { display:flex; align-items:center; justify-content:space-between; height:64px; }
-.brand { display:flex; align-items:center; gap:10px; text-decoration:none; color:#0f172a; font-weight:800; }
+.brand { display:flex; align-items:center; gap:10px; color:#0f172a; font-weight:800; }
 .brand-mark { border-radius:10px; }
 .brand-name { font-size:20px; }
 .nav-links { display:flex; gap:18px; list-style:none; margin:0; padding:0; align-items:center; }
-.nav-links a { text-decoration:none; color:#0f172a; }
 .nav-toggle { display:none; background:none; border:0; }
 .nav-toggle .bar { display:block; width:22px; height:2px; background:#0f172a; margin:4px 0; }
 
-/* Mobile nav */
 @media (max-width: 820px){
   .nav-toggle{ display:block; }
   .nav-links{ position:absolute; top:64px; left:0; right:0; background:#fff; border-bottom:1px solid #eee;
@@ -24,8 +22,8 @@ a { color:#0ea5a3; }
 }
 
 /* Buttons */
-.btn { display:inline-block; background:#0ea5a3; color:#fff; text-decoration:none; padding:10px 16px; border-radius:10px; font-weight:700; }
-.btn:hover { opacity:.9; }
+.btn { display:inline-block; background:#0ea5a3; color:#fff; padding:10px 16px; border-radius:10px; font-weight:700; }
+.btn:hover { opacity:.92; }
 .btn-ghost { background:#eaf8f7; color:#0ea5a3; }
 .btn-small { padding:8px 12px; }
 
@@ -53,11 +51,11 @@ a { color:#0ea5a3; }
 .ui-card .left .reasons { color:#334155; margin:0; }
 .ui-card .right { display:flex; align-items:center; }
 
-/* Hero “See Jobs” pill (separate class so it won't crop) */
+/* Hero call-to-jobs pill */
 .pill-link{
   display:inline-flex; align-items:center; justify-content:center;
   padding:10px 14px; border-radius:999px; font-weight:700; white-space:nowrap;
-  background:#0f172a; color:#fff; text-decoration:none;
+  background:#0f172a; color:#fff;
 }
 .pill-link:hover{ opacity:.92; }
 
@@ -72,20 +70,25 @@ a { color:#0ea5a3; }
 .features { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap:16px; }
 .feature { background:#fff; border:1px solid #eee; border-radius:12px; padding:14px; }
 
-/* Pricing */
-.pricing { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap:16px; }
-.plan { background:#fff; border:1px solid #eee; border-radius:12px; padding:14px; }
-.plan .price { font-weight:800; font-size:22px; }
-.plan-pro { border-color:#0ea5a3; box-shadow: 0 0 0 2px rgba(14,165,163,.1) inset; }
-.badge { display:inline-block; background:#eaf8f7; color:#0ea5a3; font-weight:700; padding:6px 10px; border-radius:999px; margin-bottom:8px; }
+/* Pricing (equal height + interactive) */
+.pricing { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap:16px; align-items:stretch; }
+.plan {
+  display:flex; flex-direction:column; justify-content:space-between;
+  background:#fff; border:1px solid #eee; border-radius:12px; padding:16px;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  cursor:pointer; min-height: 280px;
+}
+.plan h3 { margin:0 0 4px; }
+.plan .price { font-weight:800; font-size:22px; margin:0 0 8px; }
+.plan ul { margin:10px 0 16px; padding-left:18px; color:#475569; flex:1 1 auto; }
+.plan .btn.btn-block{ display:block; width:100%; text-align:center; transition: transform .12s ease, box-shadow .12s ease; }
+.plan .btn.btn-block:hover{ transform: translateY(-2px); box-shadow: 0 8px 16px rgba(14,165,163,.28); }
+.plan .btn.btn-block:active{ transform: translateY(0); box-shadow: inset 0 2px 0 rgba(0,0,0,.06); }
 
-/* Interactive pricing cards */
-.pricing .plan{ position:relative; transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; cursor:pointer; }
+/* Hover + selected state */
 .pricing .plan:hover{ transform: translateY(-4px); box-shadow: 0 10px 24px rgba(2,6,23,.12); }
 .pricing .plan.is-selected{ border-color:#0ea5a3; box-shadow: 0 12px 28px rgba(14,165,163,.22); transform: translateY(-6px); }
-.pricing .plan .btn.btn-block{ display:block; width:100%; text-align:center; transition: transform .12s ease, box-shadow .12s ease, background-color .12s ease; }
-.pricing .plan .btn.btn-block:hover{ transform: translateY(-2px); box-shadow: 0 8px 16px rgba(14,165,163,.28); }
-.pricing .plan .btn.btn-block:active{ transform: translateY(0); box-shadow: inset 0 2px 0 rgba(0,0,0,.06); }
+.badge { display:inline-block; background:#eaf8f7; color:#0ea5a3; font-weight:700; padding:6px 10px; border-radius:999px; margin-bottom:8px; }
 .pricing .plan.is-selected .badge{ background:#0ea5a3; color:#fff; }
 
 /* Jobs list + Apply alignment */
@@ -96,7 +99,7 @@ a { color:#0ea5a3; }
 #jobsList .job h3 { margin:0 0 6px; }
 #jobsList .job p { margin:0 0 6px; color:#475569; }
 #jobsList .job .apply-link{
-  display:inline-block; text-decoration:none; font-weight:700;
+  display:inline-block; font-weight:700;
   padding:8px 12px; border-radius:10px; border:1px solid #0ea5a3; color:#0ea5a3;
 }
 #jobsList .job .apply-link:hover{ background:#0ea5a3; color:#fff; }
@@ -118,7 +121,7 @@ a { color:#0ea5a3; }
 .footer-inner{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; padding:16px 0; }
 .footer-brand{ display:flex; align-items:center; gap:10px; }
 .footer-links{ display:flex; gap:16px; list-style:none; padding:0; margin:0; }
-.footer-links a{ text-decoration:none; color:#334155; }
+.footer-links a{ color:#334155; }
 .footer-links a:hover{ text-decoration:underline; }
 .tiny{ font-size:12px; color:#64748b; }
 @media (max-width:640px){
