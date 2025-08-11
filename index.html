@@ -1,288 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Meta -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>FinMatch — Fresh, high-fit finance jobs — ranked for you.</title>
-  <meta name="description" content="FinMatch finds fresh, visa-friendly finance roles, ranks them by fit to your resume, and prepares tailored applications — so you apply first with your best profile.">
-  <meta name="theme-color" content="#0b1630">
-
-  <!-- Social -->
-  <meta property="og:title" content="FinMatch — Fresh, high-fit finance jobs">
-  <meta property="og:description" content="Find new, visa-friendly finance roles ranked to your resume, with one-click tailored applications.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://araddhyarajput.github.io/finmatch-public-/">
-  <meta property="og:image" content="logo.svg">
-
-  <!-- Fonts & CSS -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinMatch</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="logo.svg">
 </head>
 <body>
-  <!-- HEADER -->
+
+  <!-- Header -->
   <header class="site-header">
-    <nav class="nav container" aria-label="Main">
-      <a class="brand" href="#home">
-        <!-- Uses your ORIGINAL logo file in repo root -->
-        <img src="logo.svg?v=3" alt="FinMatch logo" class="brand-mark">
-        <span class="brand-name">FinMatch</span>
+    <div class="container header-content">
+      <a href="index.html" class="logo-link">
+        <img src="assets/logo.svg" alt="FinMatch Logo" class="brand-mark">
       </a>
-      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
-      </button>
-      <ul class="nav-links">
-        <li><a href="#how">How it works</a></li>
-        <li><a href="#why">Why FinMatch</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#jobs">Jobs</a></li>
-        <li><a href="#waitlist">Join waitlist</a></li>
-        <li><a class="btn btn-small" href="#waitlist">Start Free</a></li>
-      </ul>
-    </nav>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="how-it-works.html">How it works</a>
+        <a href="why-finmatch.html">Why FinMatch</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="join.html">Join waitlist</a>
+      </nav>
+    </div>
   </header>
 
-  <!-- MAIN -->
-  <main>
-    <!-- HERO -->
-    <section class="hero container" id="home">
-      <div class="hero-copy">
-        <h1>Find your next finance role before the competition.</h1>
-        <p class="tagline">Fresh, high-fit finance jobs — ranked for you.</p>
-        <p class="sub">We surface new, visa-friendly finance, analytics, and strategy roles, score them to your resume, and prep tailored applications in one click.</p>
-        <div class="cta-row">
-          <a class="btn" href="#waitlist">Start free</a>
-          <a class="btn btn-ghost" href="#how">See how it works</a>
-        </div>
-        <ul class="hero-bullets" role="list">
-          <li>Only jobs posted in the last 10 days</li>
-          <li>Visa-friendly detection for OPT &amp; H-1B</li>
-          <li>Tailored resumes &amp; covers in one click</li>
-        </ul>
-      </div>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Find your next finance role before the competition.</h1>
+      <p>Fresh, high-fit finance jobs — ranked for you.</p>
+    </div>
+  </section>
 
-      <figure class="hero-art" aria-label="FinMatch dashboard preview">
-        <div class="ui-window">
-          <div class="ui-top">
-            <div class="dot"></div><div class="dot"></div><div class="dot"></div>
-            <span class="ui-title">FinMatch — Dashboard</span>
-          </div>
-          <div class="ui-body">
-            <div class="ui-filters">
-              <span class="chip">US-wide</span>
-              <span class="chip">Salary: $50k–$85k</span>
-              <span class="chip">Visa-friendly</span>
-              <span class="chip">FP&amp;A • Finance • Strategy</span>
-            </div>
-            <ul class="ui-list" role="list">
-              <li class="ui-card">
-                <div class="left">
-                  <h3><span class="match">91%</span> Financial Analyst — FP&amp;A</h3>
-                  <p class="meta">Visa • Austin, TX • Posted 2d • Est. $78–88k</p>
-                  <p class="reasons">+ Excel • + Power BI • + Forecasting</p>
-                </div>
-                <div class="right"><button class="pill">Tailor &amp; Apply</button></div>
-              </li>
-              <li class="ui-card">
-                <div class="left">
-                  <h3><span class="match">88%</span> Strategic Finance Analyst</h3>
-                  <p class="meta">Chime • Remote • Posted 1d • Est. $82–95k</p>
-                  <p class="reasons">+ SQL • + Dashboarding • + SaaS</p>
-                </div>
-                <div class="right"><button class="pill">Tailor &amp; Apply</button></div>
-              </li>
-              <li class="ui-card">
-                <div class="left">
-                  <h3><span class="match">84%</span> Corporate Finance Analyst</h3>
-                  <p class="meta">S&amp;P Global • NYC • Posted 3d • Est. $70–82k</p>
-                  <p class="reasons">+ Valuation • + Budgeting • + Stakeholders</p>
-                </div>
-                <div class="right"><button class="pill">Tailor &amp; Apply</button></div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </figure>
-    </section>
+  <!-- Jobs Section -->
+  <section class="jobs-section container">
+    <h2>Latest Finance Jobs</h2>
+    <div id="filters">
+      <!-- Filter UI will go here -->
+    </div>
+    <div id="jobs-list">
+      <!-- Jobs will be dynamically injected here -->
+    </div>
+  </section>
 
-    <!-- HOW -->
-    <section class="section container" id="how">
-      <header class="section-head">
-        <h2>How it works</h2>
-        <p>Three steps. Minutes to set up.</p>
-      </header>
-      <div class="steps">
-        <div class="step">
-          <div class="step-num">1</div>
-          <h3>Tell us what you want</h3>
-          <p>Set your role, skills, salary, locations, and visa needs in a 2-minute onboarding.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">2</div>
-          <h3>Get daily matches ranked for fit</h3>
-          <p>We pull fresh jobs and score them against your resume and preferences — no keyword spam.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">3</div>
-          <h3>Apply first with tailored materials</h3>
-          <p>Generate targeted resumes &amp; cover letters and prefill ATS forms where possible.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- WHY -->
-    <section class="section container" id="why">
-      <header class="section-head">
-        <h2>Why FinMatch</h2>
-        <p>Built for early-career finance talent — and visa holders.</p>
-      </header>
-      <div class="features">
-        <article class="feature"><h3>Only relevant jobs</h3><p>We focus on finance, analytics, and strategy roles — not generic listings.</p></article>
-        <article class="feature"><h3>Visa-friendly detection</h3><p>We flag companies with sponsorship signals in their history and job text.</p></article>
-        <article class="feature"><h3>Tailored in one click</h3><p>Resume bullet swaps and custom cover letters matched to each role.</p></article>
-        <article class="feature"><h3>ATS-aware apply assist</h3><p>Prefill for Greenhouse/Lever and prep answers for others — you submit to stay ToS-safe.</p></article>
-        <article class="feature"><h3>Application tracker</h3><p>Kanban board to move roles from Applied → Interview → Offer.</p></article>
-        <article class="feature"><h3>Freshness priority</h3><p>We surface postings from the last 10 days so you’re early in the funnel.</p></article>
-      </div>
-    </section>
-
-    <!-- PRICING -->
-    <section class="section container" id="pricing">
-      <header class="section-head">
-        <h2>Pricing</h2>
-        <p>Start free. Upgrade when you’re ready.</p>
-      </header>
-      <div class="pricing">
-        <div class="plan">
-          <h3>Free</h3>
-          <p class="price">$0<span>/mo</span></p>
-          <ul role="list"><li>10 matches / month</li><li>Basic scoring & tracker</li><li>Email support</li></ul>
-          <a class="btn btn-block" href="#waitlist">Start Free</a>
-        </div>
-        <div class="plan plan-pro">
-          <div class="badge">Most Popular</div>
-          <h3>Pro</h3>
-          <p class="price">$19<span>/mo</span></p>
-          <ul role="list"><li>Unlimited matches</li><li>Resume & cover tailoring</li><li>Daily email/Slack alerts</li><li>Visa-friendly filter & advanced search</li></ul>
-          <a class="btn btn-block" href="#waitlist">Get Pro</a>
-        </div>
-        <div class="plan">
-          <h3>Institutional</h3>
-          <p class="price">from $250<span>/mo</span></p>
-          <ul role="list"><li>Up to 50 users</li><li>Shared analytics dashboard</li><li>Priority support</li></ul>
-          <a class="btn btn-block" href="#waitlist">Talk to Sales</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- JOBS (polished filters) -->
-    <section id="jobs" style="max-width:880px;margin:40px auto;padding:0 16px">
-      <h2>Latest Finance Jobs</h2>
-      <p id="jobsUpdated" style="color:#64748b;margin:6px 0 16px;font-size:14px"></p>
-
-      <form id="jobFilters" class="filters" onsubmit="return false">
-        <div class="filters-head">
-          <div class="filters-title">Filter jobs</div>
-          <div class="filters-count"><span id="resultsCount">0</span> jobs</div>
-        </div>
-
-        <div class="filters-grid">
-          <label class="field">
-            <span class="label">Role</span>
-            <select id="f_role" class="input">
-              <option value="">All roles</option>
-              <option value="financial analyst">Financial Analyst</option>
-              <option value="fp&a">FP&amp;A</option>
-              <option value="strategic finance">Strategic Finance</option>
-              <option value="corporate finance">Corporate Finance</option>
-            </select>
-          </label>
-
-          <label class="field">
-            <span class="label">Company</span>
-            <input id="f_company" class="input" type="text" placeholder="e.g., Chime" />
-          </label>
-
-          <label class="field">
-            <span class="label">Location</span>
-            <input id="f_location" class="input" type="text" placeholder="Remote, Boston, NYC…" />
-          </label>
-
-          <label class="field checkbox">
-            <input id="f_remote" type="checkbox" />
-            <span class="label">Remote only</span>
-          </label>
-
-          <label class="field">
-            <span class="label">Posted</span>
-            <select id="f_posted" class="input">
-              <option value="">Any time</option>
-              <option value="3">Last 3 days</option>
-              <option value="7">Last 7 days</option>
-              <option value="10">Last 10 days</option>
-            </select>
-          </label>
-        </div>
-
-        <div class="filters-actions">
-          <button id="f_clear" class="btn-ghost" type="button">Clear</button>
-        </div>
-      </form>
-
-      <div id="jobsList">Loading jobs…</div>
-      <div id="jobsMoreWrap" style="text-align:center;margin-top:12px;display:none">
-        <button id="jobsMore" class="btn">Load more</button>
-      </div>
-    </section>
-
-    <!-- WAITLIST -->
-    <section class="section container" id="waitlist">
-      <header class="section-head">
-        <h2>Join the waitlist</h2>
-        <p>Be first to try FinMatch and get 50% off your first 3 months.</p>
-      </header>
-      <form class="waitlist" id="waitlistForm" action="#" method="post" novalidate>
-        <div class="grid">
-          <label><span>Name</span><input type="text" name="name" placeholder="Jane Doe" required></label>
-          <label><span>Email</span><input type="email" name="email" placeholder="jane@email.com" required></label>
-          <label><span>Role type</span><input type="text" name="role" placeholder="Financial Analyst, FP&A, Strategy" required></label>
-          <label><span>Location preference</span><input type="text" name="location" placeholder="Remote, NYC, Boston..." required></label>
-        </div>
-        <button class="btn" type="submit">Join Waitlist</button>
-        <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
-      </form>
-    </section>
-  </main>
-
-  <!-- FOOTER -->
+  <!-- Footer -->
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <a class="footer-brand" href="#home" aria-label="FinMatch home">
-        <img src="logo.svg?v=3" alt="FinMatch logo" class="brand-mark">
-        <span class="brand-name">FinMatch</span>
-      </a>
-      <ul class="footer-links" role="list">
-        <li><a href="privacy.html">Privacy</a></li>
-        <li><a href="terms.html">Terms</a></li>
-        <li><a href="#waitlist">Join waitlist</a></li>
-      </ul>
-      <div class="copyright">© <span id="year"></span> FinMatch. All rights reserved.</div>
+    <div class="container footer-content">
+      <div class="footer-left">
+        <img src="assets/logo.svg" alt="FinMatch Logo" class="brand-mark">
+        <p>&copy; 2025 FinMatch. All rights reserved.</p>
+      </div>
+      <div class="footer-right">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </div>
     </div>
   </footer>
 
-  <!-- Scripts -->
   <script src="script.js"></script>
-  <!-- GA4 (optional)
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NYND95D0GG"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-NYND95D0GG');
-  </script>
-  -->
 </body>
 </html>
