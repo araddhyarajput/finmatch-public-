@@ -1,40 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>FinMatch — Fresh, high-fit finance jobs — ranked for you.</title>
+  <meta name="description" content="FinMatch finds fresh, visa-friendly finance roles, ranks them by fit to your resume, and prepares tailored applications — so you apply first with your best profile.">
+  <meta name="theme-color" content="#0b1630">
 
-  <meta name="description" content="Fresh, visa-friendly finance roles ranked to your profile with tailored applications." />
-  <meta name="theme-color" content="#0b1630" />
-  <meta property="og:title" content="FinMatch — Fresh, high-fit finance jobs" />
-  <meta property="og:description" content="Find new, visa-friendly finance roles ranked to your resume, with one-click tailored applications." />
-  <meta property="og:image" content="assets/logo.svg" />
-  <meta property="og:url" content="https://araddhyarajput.github.io/finmatch-public-/" />
-  <meta name="twitter:card" content="summary_large_image" />
+  <!-- Social -->
+  <meta property="og:title" content="FinMatch — Fresh, high-fit finance jobs">
+  <meta property="og:description" content="Find new, visa-friendly finance roles ranked to your resume, with one-click tailored applications.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://araddhyarajput.github.io/finmatch-public-/">
+  <meta property="og:image" content="assets/logo.svg">
+  <meta name="twitter:card" content="summary_large_image">
 
+  <!-- Fonts & CSS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=6">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/logo.svg">
 </head>
 <body>
   <!-- HEADER -->
   <header class="site-header">
     <nav class="nav container" aria-label="Main">
-      <a class="brand" href="#home" aria-label="FinMatch home">
-        <!-- Inline logo so it always shows -->
-        <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-          <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0ea5a3"/><stop offset="1" stop-color="#00d1c7"/></linearGradient></defs>
-          <rect width="64" height="64" rx="14" fill="#0b1630"/>
-          <g transform="translate(10,12)">
-            <path d="M6 28c6-9 12-14 18-14s12 5 18 14" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
-            <path d="M6 34h36" stroke="#e6ebf7" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="10" cy="28" r="2.2" fill="#e6ebf7"/>
-            <circle cx="28" cy="20" r="2.2" fill="#e6ebf7"/>
-            <circle cx="42" cy="28" r="2.2" fill="#e6ebf7"/>
-          </g>
-        </svg>
+      <a class="brand" href="#home">
+        <img src="assets/logo.svg" alt="FinMatch logo" class="brand-mark">
         <span class="brand-name">FinMatch</span>
       </a>
       <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,9 +46,9 @@
   </header>
 
   <!-- MAIN -->
-  <main id="home">
+  <main>
     <!-- HERO -->
-    <section class="hero container">
+    <section class="hero container" id="home">
       <div class="hero-copy">
         <h1>Find your next finance role before the competition.</h1>
         <p class="tagline">Fresh, high-fit finance jobs — ranked for you.</p>
@@ -70,7 +64,6 @@
         </ul>
       </div>
 
-      <!-- Mock UI -->
       <figure class="hero-art" aria-label="FinMatch dashboard preview">
         <div class="ui-window">
           <div class="ui-top">
@@ -91,7 +84,7 @@
                   <p class="meta">Visa • Austin, TX • Posted 2d • Est. $78–88k</p>
                   <p class="reasons">+ Excel • + Power BI • + Forecasting</p>
                 </div>
-                <div class="right"><a href="#jobs" class="pill-link">See Jobs</a></div>
+                <div class="right"><button class="pill">Tailor &amp; Apply</button></div>
               </li>
               <li class="ui-card">
                 <div class="left">
@@ -99,7 +92,7 @@
                   <p class="meta">Chime • Remote • Posted 1d • Est. $82–95k</p>
                   <p class="reasons">+ SQL • + Dashboarding • + SaaS</p>
                 </div>
-                <div class="right"><a href="#jobs" class="pill-link">See Jobs</a></div>
+                <div class="right"><button class="pill">Tailor &amp; Apply</button></div>
               </li>
               <li class="ui-card">
                 <div class="left">
@@ -107,7 +100,7 @@
                   <p class="meta">S&amp;P Global • NYC • Posted 3d • Est. $70–82k</p>
                   <p class="reasons">+ Valuation • + Budgeting • + Stakeholders</p>
                 </div>
-                <div class="right"><a href="#jobs" class="pill-link">See Jobs</a></div>
+                <div class="right"><button class="pill">Tailor &amp; Apply</button></div>
               </li>
             </ul>
           </div>
@@ -122,9 +115,21 @@
         <p>Three steps. Minutes to set up.</p>
       </header>
       <div class="steps">
-        <div class="step"><div class="step-num">1</div><h3>Tell us what you want</h3><p>Set your role, skills, salary, locations, and visa needs in a 2-minute onboarding.</p></div>
-        <div class="step"><div class="step-num">2</div><h3>Get daily matches ranked for fit</h3><p>We pull fresh jobs and score them against your resume and preferences — no keyword spam.</p></div>
-        <div class="step"><div class="step-num">3</div><h3>Apply first with tailored materials</h3><p>Generate targeted resumes &amp; cover letters and prefill ATS forms where possible.</p></div>
+        <div class="step">
+          <div class="step-num">1</div>
+          <h3>Tell us what you want</h3>
+          <p>Set your role, skills, salary, locations, and visa needs in a 2-minute onboarding.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <h3>Get daily matches ranked for fit</h3>
+          <p>We pull fresh jobs and score them against your resume and preferences — no keyword spam.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <h3>Apply first with tailored materials</h3>
+          <p>Generate targeted resumes &amp; cover letters and prefill ATS forms where possible.</p>
+        </div>
       </div>
     </section>
 
@@ -150,107 +155,89 @@
         <h2>Pricing</h2>
         <p>Start free. Upgrade when you’re ready.</p>
       </header>
-
       <div class="pricing">
-        <!-- Free -->
         <div class="plan">
           <h3>Free</h3>
           <p class="price">$0<span>/mo</span></p>
-          <ul role="list">
-            <li>10 matches / month</li>
-            <li>Basic scoring &amp; tracker</li>
-            <li>Email support</li>
-          </ul>
+          <ul role="list"><li>10 matches / month</li><li>Basic scoring & tracker</li><li>Email support</li></ul>
           <a class="btn btn-block" href="#waitlist">Start Free</a>
         </div>
-
-        <!-- Pro -->
         <div class="plan plan-pro">
           <div class="badge">Most Popular</div>
           <h3>Pro</h3>
           <p class="price">$19<span>/mo</span></p>
-          <ul role="list">
-            <li>Unlimited matches</li>
-            <li>Resume &amp; cover tailoring</li>
-            <li>Daily email/Slack alerts</li>
-            <li>Visa-friendly filter &amp; advanced search</li>
-          </ul>
+          <ul role="list"><li>Unlimited matches</li><li>Resume & cover tailoring</li><li>Daily email/Slack alerts</li><li>Visa-friendly filter & advanced search</li></ul>
           <a class="btn btn-block" href="#waitlist">Get Pro</a>
         </div>
-
-        <!-- Institutional -->
         <div class="plan">
           <h3>Institutional</h3>
           <p class="price">from $250<span>/mo</span></p>
-          <ul role="list">
-            <li>Up to 50 users</li>
-            <li>Shared analytics dashboard</li>
-            <li>Priority support</li>
-          </ul>
+          <ul role="list"><li>Up to 50 users</li><li>Shared analytics dashboard</li><li>Priority support</li></ul>
           <a class="btn btn-block" href="#waitlist">Talk to Sales</a>
         </div>
       </div>
     </section>
 
-    <!-- JOBS -->
-<section id="jobs" style="max-width:880px;margin:40px auto;padding:0 16px">
-  <h2>Latest Finance Jobs</h2>
-  <p id="jobsUpdated" style="color:#64748b;margin:6px 0 16px;font-size:14px"></p>
+    <!-- JOBS (with polished filters) -->
+    <section id="jobs" style="max-width:880px;margin:40px auto;padding:0 16px">
+      <h2>Latest Finance Jobs</h2>
+      <p id="jobsUpdated" style="color:#64748b;margin:6px 0 16px;font-size:14px"></p>
 
-  <!-- Filters -->
-  <form id="jobFilters" class="filters" onsubmit="return false">
-    <div class="row">
-      <label>
-        <span>Role</span>
-        <select id="f_role">
-          <option value="">All roles</option>
-          <option value="financial analyst">Financial Analyst</option>
-          <option value="fp&a">FP&amp;A</option>
-          <option value="strategic finance">Strategic Finance</option>
-          <option value="corporate finance">Corporate Finance</option>
-        </select>
-      </label>
+      <form id="jobFilters" class="filters" onsubmit="return false">
+        <div class="filters-head">
+          <div class="filters-title">Filter jobs</div>
+          <div class="filters-count"><span id="resultsCount">0</span> jobs</div>
+        </div>
 
-      <label>
-        <span>Company</span>
-        <input id="f_company" type="text" placeholder="e.g., Chime" />
-      </label>
+        <div class="filters-grid">
+          <label class="field">
+            <span class="label">Role</span>
+            <select id="f_role" class="input">
+              <option value="">All roles</option>
+              <option value="financial analyst">Financial Analyst</option>
+              <option value="fp&a">FP&amp;A</option>
+              <option value="strategic finance">Strategic Finance</option>
+              <option value="corporate finance">Corporate Finance</option>
+            </select>
+          </label>
 
-      <label>
-        <span>Location</span>
-        <input id="f_location" type="text" placeholder="Remote, Boston, NYC…" />
-      </label>
+          <label class="field">
+            <span class="label">Company</span>
+            <input id="f_company" class="input" type="text" placeholder="e.g., Chime" />
+          </label>
 
-      <label class="checkbox">
-        <input id="f_remote" type="checkbox" />
-        <span>Remote only</span>
-      </label>
+          <label class="field">
+            <span class="label">Location</span>
+            <input id="f_location" class="input" type="text" placeholder="Remote, Boston, NYC…" />
+          </label>
 
-      <label>
-        <span>Posted</span>
-        <select id="f_posted">
-          <option value="">Any time</option>
-          <option value="3">Last 3 days</option>
-          <option value="7">Last 7 days</option>
-          <option value="10">Last 10 days</option>
-        </select>
-      </label>
-    </div>
+          <label class="field checkbox">
+            <input id="f_remote" type="checkbox" />
+            <span class="label">Remote only</span>
+          </label>
 
-    <div class="row actions">
-      <button id="f_clear" class="btn btn-ghost" type="button">Clear</button>
-      <div class="count"><span id="resultsCount">0</span> jobs</div>
-    </div>
-  </form>
+          <label class="field">
+            <span class="label">Posted</span>
+            <select id="f_posted" class="input">
+              <option value="">Any time</option>
+              <option value="3">Last 3 days</option>
+              <option value="7">Last 7 days</option>
+              <option value="10">Last 10 days</option>
+            </select>
+          </label>
+        </div>
 
-  <!-- Results -->
-  <div id="jobsList">Loading jobs…</div>
+        <div class="filters-actions">
+          <button id="f_clear" class="btn-ghost" type="button">Clear</button>
+        </div>
+      </form>
 
-  <!-- Load more -->
-  <div id="jobsMoreWrap" style="text-align:center;margin-top:12px;display:none">
-    <button id="jobsMore" class="btn">Load more</button>
-  </div>
-</section>
+      <div id="jobsList">Loading jobs…</div>
+
+      <div id="jobsMoreWrap" style="text-align:center;margin-top:12px;display:none">
+        <button id="jobsMore" class="btn">Load more</button>
+      </div>
+    </section>
 
     <!-- WAITLIST -->
     <section class="section container" id="waitlist">
@@ -275,30 +262,31 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-          <defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0ea5a3"/><stop offset="1" stop-color="#00d1c7"/></linearGradient></defs>
-          <rect width="64" height="64" rx="14" fill="#0b1630"/>
-          <g transform="translate(10,12)">
-            <path d="M6 28c6-9 12-14 18-14s12 5 18 14" fill="none" stroke="url(#g2)" stroke-width="4" stroke-linecap="round"/>
-            <path d="M6 34h36" stroke="#e6ebf7" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="10" cy="28" r="2.2" fill="#e6ebf7"/>
-            <circle cx="28" cy="20" r="2.2" fill="#e6ebf7"/>
-            <circle cx="42" cy="28" r="2.2" fill="#e6ebf7"/>
-          </g>
-        </svg>
+        <img src="assets/logo.svg" alt="" class="brand-mark">
         <div>
           <strong>FinMatch</strong>
           <div class="tiny">Fresh, high-fit finance jobs — ranked for you.</div>
         </div>
       </div>
       <ul class="footer-links">
-        <li><a href="/finmatch-public-/privacy.html">Privacy</a></li>
-        <li><a href="/finmatch-public-/terms.html">Terms</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms</a></li>
       </ul>
       <div class="copyright">© <span id="year"></span> FinMatch</div>
     </div>
   </footer>
 
-  <script src="script.js?v=6"></script>
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <!-- GA4 (optional) -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NYND95D0GG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-NYND95D0GG');
+  </script>
+  -->
 </body>
 </html>
