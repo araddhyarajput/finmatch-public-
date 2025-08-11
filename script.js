@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const el = document.getElementById('jobsList');
     if(!el) return;
     try{
-      const res = await fetch('jobs.json?ts=' + Date.now()); // cache-bust
+      const res = await fetch('jobs.json?ts=' + Date.now());
       if(!res.ok) throw new Error('HTTP ' + res.status);
       const jobs = await res.json();
       if(!Array.isArray(jobs) || jobs.length === 0){
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   loadJobs();
 
-  // Track Apply clicks (GA4 optional)
+  // GA4: track Apply clicks (optional)
   document.addEventListener('click', (e) => {
     const a = e.target.closest('a.apply-link');
     if (!a) return;
@@ -92,9 +92,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (res.ok) {
           form.reset();
           if (note) note.textContent = 'Thanks! You’re on the list — we’ll email you when beta opens.';
+          // window.location.href = '/finmatch-public-/thanks.html'; // enable when ready
           window.gtag && gtag('event', 'waitlist_submit', { event_category: 'lead', event_label: 'public_site' });
-          // Optional: redirect to a dedicated thank-you page
-          // window.location.href = 'thanks.html';
         } else {
           let msg = 'Something went wrong. Please try again.';
           try {
@@ -111,21 +110,25 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Pricing: interactive cards
+  // Pricing: interactive (no default selection; click toggles)
   const plans = document.querySelectorAll('.pricing .plan');
-  if (plans.length){
-    plans.forEach((card) => {
-      card.setAttribute('tabindex', '0');
-      card.addEventListener('click', () => {
-        plans.forEach(c => c.classList.remove('is-selected'));
+  let selected = null;
+  plans.forEach((card) => {
+    card.tabIndex = 0;
+    const toggle = () => {
+      if (selected === card) {
+        card.classList.remove('is-selected');
+        selected = null;
+      } else {
+        selected?.classList.remove('is-selected');
         card.classList.add('is-selected');
-      });
-      card.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); card.click(); }
-      });
+        selected = card;
+      }
+    };
+    card.addEventListener('click', toggle);
+    card.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
     });
-    const pro = document.querySelector('.pricing .plan.plan-pro');
-    (pro || plans[0]).classList.add('is-selected');
-  }
+  });
 });
 // ========================== end ==========================
