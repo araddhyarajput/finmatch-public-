@@ -16,16 +16,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-  <!-- cache-bust so updates show -->
-  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
   <!-- HEADER -->
   <header class="site-header">
     <nav class="nav container" aria-label="Main">
       <a class="brand" href="#home" aria-label="FinMatch home">
-        <!-- Inline logo -->
+        <!-- Inline logo so it always shows -->
         <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
           <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0ea5a3"/><stop offset="1" stop-color="#00d1c7"/></linearGradient></defs>
           <rect width="64" height="64" rx="14" fill="#0b1630"/>
@@ -54,9 +52,9 @@
   </header>
 
   <!-- MAIN -->
-  <main>
+  <main id="home">
     <!-- HERO -->
-    <section class="hero container" id="home">
+    <section class="hero container">
       <div class="hero-copy">
         <h1>Find your next finance role before the competition.</h1>
         <p class="tagline">Fresh, high-fit finance jobs — ranked for you.</p>
@@ -72,7 +70,7 @@
         </ul>
       </div>
 
-      <!-- Mock UI (pills jump to Jobs) -->
+      <!-- Mock UI -->
       <figure class="hero-art" aria-label="FinMatch dashboard preview">
         <div class="ui-window">
           <div class="ui-top">
@@ -152,21 +150,43 @@
         <h2>Pricing</h2>
         <p>Start free. Upgrade when you’re ready.</p>
       </header>
+
       <div class="pricing">
+        <!-- Free -->
         <div class="plan">
-          <h3>Free</h3><p class="price">$0<span>/mo</span></p>
-          <ul role="list"><li>10 matches / month</li><li>Basic scoring & tracker</li><li>Email support</li></ul>
+          <h3>Free</h3>
+          <p class="price">$0<span>/mo</span></p>
+          <ul role="list">
+            <li>10 matches / month</li>
+            <li>Basic scoring &amp; tracker</li>
+            <li>Email support</li>
+          </ul>
           <a class="btn btn-block" href="#waitlist">Start Free</a>
         </div>
+
+        <!-- Pro -->
         <div class="plan plan-pro">
           <div class="badge">Most Popular</div>
-          <h3>Pro</h3><p class="price">$19<span>/mo</span></p>
-          <ul role="list"><li>Unlimited matches</li><li>Resume & cover tailoring</li><li>Daily email/Slack alerts</li><li>Visa-friendly filter & advanced search</li></ul>
+          <h3>Pro</h3>
+          <p class="price">$19<span>/mo</span></p>
+          <ul role="list">
+            <li>Unlimited matches</li>
+            <li>Resume &amp; cover tailoring</li>
+            <li>Daily email/Slack alerts</li>
+            <li>Visa-friendly filter &amp; advanced search</li>
+          </ul>
           <a class="btn btn-block" href="#waitlist">Get Pro</a>
         </div>
+
+        <!-- Institutional -->
         <div class="plan">
-          <h3>Institutional</h3><p class="price">from $250<span>/mo</span></p>
-          <ul role="list"><li>Up to 50 users</li><li>Shared analytics dashboard</li><li>Priority support</li></ul>
+          <h3>Institutional</h3>
+          <p class="price">from $250<span>/mo</span></p>
+          <ul role="list">
+            <li>Up to 50 users</li>
+            <li>Shared analytics dashboard</li>
+            <li>Priority support</li>
+          </ul>
           <a class="btn btn-block" href="#waitlist">Talk to Sales</a>
         </div>
       </div>
@@ -202,10 +222,10 @@
     <div class="container footer-inner">
       <div class="footer-brand">
         <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-          <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0ea5a3"/><stop offset="1" stop-color="#00d1c7"/></linearGradient></defs>
+          <defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0ea5a3"/><stop offset="1" stop-color="#00d1c7"/></linearGradient></defs>
           <rect width="64" height="64" rx="14" fill="#0b1630"/>
           <g transform="translate(10,12)">
-            <path d="M6 28c6-9 12-14 18-14s12 5 18 14" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
+            <path d="M6 28c6-9 12-14 18-14s12 5 18 14" fill="none" stroke="url(#g2)" stroke-width="4" stroke-linecap="round"/>
             <path d="M6 34h36" stroke="#e6ebf7" stroke-width="2" stroke-linecap="round"/>
             <circle cx="10" cy="28" r="2.2" fill="#e6ebf7"/>
             <circle cx="28" cy="20" r="2.2" fill="#e6ebf7"/>
@@ -225,6 +245,6 @@
     </div>
   </footer>
 
-  <script src="script.js?v=5"></script>
+  <script src="script.js?v=6"></script>
 </body>
 </html>
