@@ -196,7 +196,60 @@
 <section id="jobs" style="max-width:880px;margin:40px auto;padding:0 16px">
   <h2>Latest Finance Jobs</h2>
   <p id="jobsUpdated" style="color:#64748b;margin:6px 0 16px;font-size:14px"></p>
+
+  <!-- Filters -->
+  <form id="jobFilters" class="filters" onsubmit="return false">
+    <div class="row">
+      <label>
+        <span>Role</span>
+        <select id="f_role">
+          <option value="">All roles</option>
+          <option value="financial analyst">Financial Analyst</option>
+          <option value="fp&a">FP&amp;A</option>
+          <option value="strategic finance">Strategic Finance</option>
+          <option value="corporate finance">Corporate Finance</option>
+        </select>
+      </label>
+
+      <label>
+        <span>Company</span>
+        <input id="f_company" type="text" placeholder="e.g., Chime" />
+      </label>
+
+      <label>
+        <span>Location</span>
+        <input id="f_location" type="text" placeholder="Remote, Boston, NYC…" />
+      </label>
+
+      <label class="checkbox">
+        <input id="f_remote" type="checkbox" />
+        <span>Remote only</span>
+      </label>
+
+      <label>
+        <span>Posted</span>
+        <select id="f_posted">
+          <option value="">Any time</option>
+          <option value="3">Last 3 days</option>
+          <option value="7">Last 7 days</option>
+          <option value="10">Last 10 days</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="row actions">
+      <button id="f_clear" class="btn btn-ghost" type="button">Clear</button>
+      <div class="count"><span id="resultsCount">0</span> jobs</div>
+    </div>
+  </form>
+
+  <!-- Results -->
   <div id="jobsList">Loading jobs…</div>
+
+  <!-- Load more -->
+  <div id="jobsMoreWrap" style="text-align:center;margin-top:12px;display:none">
+    <button id="jobsMore" class="btn">Load more</button>
+  </div>
 </section>
 
     <!-- WAITLIST -->
