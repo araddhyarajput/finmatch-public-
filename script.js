@@ -1,5 +1,4 @@
 // =============== FinMatch public site script.js ===============
-
 document.addEventListener('DOMContentLoaded', () => {
   // Mobile nav
   const navToggle = document.querySelector('.nav-toggle');
@@ -29,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const el = document.getElementById('jobsList');
     if(!el) return;
     try{
-      const res = await fetch('jobs.json?ts=' + Date.now());
+      const res = await fetch('jobs.json?ts=' + Date.now()); // cache-bust
       if(!res.ok) throw new Error('HTTP ' + res.status);
       const jobs = await res.json();
       if(!Array.isArray(jobs) || jobs.length === 0){
@@ -94,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
           form.reset();
           if (note) note.textContent = 'Thanks! You’re on the list — we’ll email you when beta opens.';
           window.gtag && gtag('event', 'waitlist_submit', { event_category: 'lead', event_label: 'public_site' });
-          // Optional redirect:
+          // Optional: redirect to a dedicated thank-you page
           // window.location.href = 'thanks.html';
         } else {
           let msg = 'Something went wrong. Please try again.';
@@ -110,6 +109,23 @@ document.addEventListener('DOMContentLoaded', () => {
         if (btn){ btn.disabled = false; btn.textContent = 'Join Waitlist'; }
       }
     });
+  }
+
+  // Pricing: interactive cards
+  const plans = document.querySelectorAll('.pricing .plan');
+  if (plans.length){
+    plans.forEach((card) => {
+      card.setAttribute('tabindex', '0');
+      card.addEventListener('click', () => {
+        plans.forEach(c => c.classList.remove('is-selected'));
+        card.classList.add('is-selected');
+      });
+      card.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); card.click(); }
+      });
+    });
+    const pro = document.querySelector('.pricing .plan.plan-pro');
+    (pro || plans[0]).classList.add('is-selected');
   }
 });
 // ========================== end ==========================
