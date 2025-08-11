@@ -5,7 +5,7 @@
   <meta property="og:title" content="FinMatch — Fresh, high-fit finance jobs">
   <meta property="og:description" content="Find new, visa-friendly finance roles ranked to your resume, with one-click tailored applications.">
   <meta property="og:image" content="assets/logo.svg">
-  <meta property="og:url" content="https://araddhyarajput.github.io/finmatch/">
+  <meta property="og:url" content="https://araddhyarajput.github.io/finmatch-public-/">
   <meta name="twitter:card" content="summary_large_image">
 
   <meta charset="utf-8" />
@@ -17,20 +17,19 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <!-- (Optional) favicon: add assets/logo.svg later; safe to remove if 404 -->
+  <!-- favicon optional once assets/logo.svg is present -->
   <!-- <link rel="icon" href="assets/logo.svg"> -->
 </head>
 <body>
   <!-- HEADER -->
   <header class="site-header">
     <nav class="nav container" aria-label="Main">
-      <a class="brand" href="#">
-        <!-- INLINE LOGO -->
+      <a class="brand" href="#home" aria-label="FinMatch home">
+        <!-- Inline logo (no external file needed) -->
         <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
           <defs>
             <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0" stop-color="#0ea5a3"/>
-              <stop offset="1" stop-color="#00d1c7"/>
+              <stop offset="0" stop-color="#0ea5a3"/><stop offset="1" stop-color="#00d1c7"/>
             </linearGradient>
           </defs>
           <rect width="64" height="64" rx="14" fill="#0b1630"/>
@@ -76,6 +75,8 @@
           <li>Tailored resumes &amp; covers in one click</li>
         </ul>
       </div>
+
+      <!-- UI mock with pills changed to scroll to Jobs -->
       <figure class="hero-art" aria-label="FinMatch dashboard preview">
         <div class="ui-window">
           <div class="ui-top">
@@ -96,7 +97,7 @@
                   <p class="meta">Visa • Austin, TX • Posted 2d • Est. $78–88k</p>
                   <p class="reasons">+ Excel • + Power BI • + Forecasting</p>
                 </div>
-                <div class="right"><button class="pill">Tailor &amp; Apply</button></div>
+                <div class="right"><a href="#jobs" class="pill">See Jobs</a></div>
               </li>
               <li class="ui-card">
                 <div class="left">
@@ -104,7 +105,7 @@
                   <p class="meta">Chime • Remote • Posted 1d • Est. $82–95k</p>
                   <p class="reasons">+ SQL • + Dashboarding • + SaaS</p>
                 </div>
-                <div class="right"><button class="pill">Tailor &amp; Apply</button></div>
+                <div class="right"><a href="#jobs" class="pill">See Jobs</a></div>
               </li>
               <li class="ui-card">
                 <div class="left">
@@ -112,7 +113,7 @@
                   <p class="meta">S&amp;P Global • NYC • Posted 3d • Est. $70–82k</p>
                   <p class="reasons">+ Valuation • + Budgeting • + Stakeholders</p>
                 </div>
-                <div class="right"><button class="pill">Tailor &amp; Apply</button></div>
+                <div class="right"><a href="#jobs" class="pill">See Jobs</a></div>
               </li>
             </ul>
           </div>
@@ -127,21 +128,9 @@
         <p>Three steps. Minutes to set up.</p>
       </header>
       <div class="steps">
-        <div class="step">
-          <div class="step-num">1</div>
-          <h3>Tell us what you want</h3>
-          <p>Set your role, skills, salary, locations, and visa needs in a 2-minute onboarding.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">2</div>
-          <h3>Get daily matches ranked for fit</h3>
-          <p>We pull fresh jobs and score them against your resume and preferences — no keyword spam.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">3</div>
-          <h3>Apply first with tailored materials</h3>
-          <p>Generate targeted resumes &amp; cover letters and prefill ATS forms where possible.</p>
-        </div>
+        <div class="step"><div class="step-num">1</div><h3>Tell us what you want</h3><p>Set your role, skills, salary, locations, and visa needs in a 2-minute onboarding.</p></div>
+        <div class="step"><div class="step-num">2</div><h3>Get daily matches ranked for fit</h3><p>We pull fresh jobs and score them against your resume and preferences — no keyword spam.</p></div>
+        <div class="step"><div class="step-num">3</div><h3>Apply first with tailored materials</h3><p>Generate targeted resumes &amp; cover letters and prefill ATS forms where possible.</p></div>
       </div>
     </section>
 
@@ -216,39 +205,15 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <!-- INLINE LOGO -->
-        <svg class="brand-mark" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-          <defs>
-            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0" stop-color="#0ea5a3"/>
-              <stop offset="1" stop-color="#00d1c7"/>
-            </linearGradient>
-          </defs>
-          <rect width="64" height="64" rx="14" fill="#0b1630"/>
-          <g transform="translate(10,12)">
-            <path d="M6 28c6-9 12-14 18-14s12 5 18 14" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
-            <path d="M6 34h36" stroke="#e6ebf7" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="10" cy="28" r="2.2" fill="#e6ebf7"/>
-            <circle cx="28" cy="20" r="2.2" fill="#e6ebf7"/>
-            <circle cx="42" cy="28" r="2.2" fill="#e6ebf7"/>
-          </g>
-        </svg>
-        <div>
-          <strong>FinMatch</strong>
-          <div class="tiny">Fresh, high-fit finance jobs — ranked for you.</div>
-        </div>
-      </div>
-      <ul class="footer-links">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Terms</a></li>
-      </ul>
-      <div class="copyright">© <span id="year"></span> FinMatch</div>
-    </div>
-  </footer>
+  <footer>
+  <div class="footer-content">
+    <p>&copy; <span id="year"></span> FinMatch. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="/finmatch-public-/privacy.html">Privacy</a></li>
+      <li><a href="/finmatch-public-/terms.html">Terms</a></li>
+    </ul>
+  </div>
+</footer>
 
   <!-- SCRIPTS -->
   <script src="script.js"></script>
