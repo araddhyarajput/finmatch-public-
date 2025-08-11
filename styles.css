@@ -1,6 +1,6 @@
 /* Base */
 * { box-sizing: border-box; }
-html, body { margin:0; padding:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:#0f172a; }
+html, body { margin:0; padding:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:#0f172a; background:#fff; }
 a { color:#0ea5a3; }
 .container { max-width:1100px; margin:0 auto; padding:0 16px; }
 
@@ -53,7 +53,7 @@ a { color:#0ea5a3; }
 .ui-card .left .reasons { color:#334155; margin:0; }
 .ui-card .right { display:flex; align-items:center; }
 
-/* NEW: hero “See Jobs” pill (separate class so it never gets cropped) */
+/* Hero “See Jobs” pill (separate class so it won't crop) */
 .pill-link{
   display:inline-flex; align-items:center; justify-content:center;
   padding:10px 14px; border-radius:999px; font-weight:700; white-space:nowrap;
@@ -75,10 +75,20 @@ a { color:#0ea5a3; }
 /* Pricing */
 .pricing { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap:16px; }
 .plan { background:#fff; border:1px solid #eee; border-radius:12px; padding:14px; }
-.plan-pro { border-color:#0ea5a3; box-shadow: 0 0 0 2px rgba(14,165,163,.1) inset; }
 .plan .price { font-weight:800; font-size:22px; }
+.plan-pro { border-color:#0ea5a3; box-shadow: 0 0 0 2px rgba(14,165,163,.1) inset; }
+.badge { display:inline-block; background:#eaf8f7; color:#0ea5a3; font-weight:700; padding:6px 10px; border-radius:999px; margin-bottom:8px; }
 
-/* Jobs list + Apply layout */
+/* Interactive pricing cards */
+.pricing .plan{ position:relative; transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; cursor:pointer; }
+.pricing .plan:hover{ transform: translateY(-4px); box-shadow: 0 10px 24px rgba(2,6,23,.12); }
+.pricing .plan.is-selected{ border-color:#0ea5a3; box-shadow: 0 12px 28px rgba(14,165,163,.22); transform: translateY(-6px); }
+.pricing .plan .btn.btn-block{ display:block; width:100%; text-align:center; transition: transform .12s ease, box-shadow .12s ease, background-color .12s ease; }
+.pricing .plan .btn.btn-block:hover{ transform: translateY(-2px); box-shadow: 0 8px 16px rgba(14,165,163,.28); }
+.pricing .plan .btn.btn-block:active{ transform: translateY(0); box-shadow: inset 0 2px 0 rgba(0,0,0,.06); }
+.pricing .plan.is-selected .badge{ background:#0ea5a3; color:#fff; }
+
+/* Jobs list + Apply alignment */
 #jobsList .job{
   border:1px solid #e6e6e6; border-radius:12px; padding:14px 16px;
   margin-bottom:12px; background:#fff; box-shadow:0 1px 2px rgba(0,0,0,.04);
@@ -90,11 +100,8 @@ a { color:#0ea5a3; }
   padding:8px 12px; border-radius:10px; border:1px solid #0ea5a3; color:#0ea5a3;
 }
 #jobsList .job .apply-link:hover{ background:#0ea5a3; color:#fff; }
-
 @media (min-width: 640px){
-  #jobsList .job{
-    display:grid; grid-template-columns:1fr auto; column-gap:16px; row-gap:6px;
-  }
+  #jobsList .job{ display:grid; grid-template-columns:1fr auto; column-gap:16px; row-gap:6px; }
   #jobsList .job h3, #jobsList .job p{ grid-column:1; }
   #jobsList .job .apply-link{ grid-column:2; grid-row:1 / span 3; align-self:start; }
 }
@@ -108,10 +115,7 @@ a { color:#0ea5a3; }
 
 /* Footer */
 .site-footer{ border-top:1px solid #eaeaea; background:#fff; }
-.footer-inner{
-  display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between;
-  gap:12px; padding:16px 0;
-}
+.footer-inner{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; padding:16px 0; }
 .footer-brand{ display:flex; align-items:center; gap:10px; }
 .footer-links{ display:flex; gap:16px; list-style:none; padding:0; margin:0; }
 .footer-links a{ text-decoration:none; color:#334155; }
