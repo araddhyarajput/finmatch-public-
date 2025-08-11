@@ -1,6 +1,6 @@
 // =============== FinMatch public site script.js ===============
 document.addEventListener('DOMContentLoaded', () => {
-  // Mobile nav
+  // --- Mobile nav
   const navToggle = document.querySelector('.nav-toggle');
   const navLinks = document.querySelector('.nav-links');
   if (navToggle && navLinks){
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Smooth scroll
+  // --- Smooth scroll
   document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', e => {
       const id = a.getAttribute('href').slice(1);
@@ -23,46 +23,152 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Jobs loader (reads jobs.json with {meta, jobs})
-  async function loadJobs(){
-    const el = document.getElementById('jobsList');
-    const badge = document.getElementById('jobsUpdated');
-    if(!el) return;
+  // ===== Jobs loader + filters =====
+  const elList = document.getElementById('jobsList');
+  const elUpdated = document.getElementById('jobsUpdated');
+  const elCount = document.getElementById('resultsCount');
+  const moreWrap = document.getElementById('jobsMoreWrap');
+  const moreBtn  = document.getElementById('jobsMore');
 
+  // Filter controls
+  const fRole = document.getElementById('f_role');
+  const fCompany = document.getElementById('f_company');
+  const fLocation = document.getElementById('f_location');
+  const fRemote = document.getElementById('f_remote');
+  const fPosted = document.getElementById('f_posted');
+  const fClear = document.getElementById('f_clear');
+
+  let allJobs = [];           // raw from jobs.json
+  let filtered = [];          // after filters
+  let page = 1;
+  const PAGE_SIZE = 10;
+
+  function normalize(s){ return (s || '').toString().trim().toLowerCase(); }
+
+  function applyFilters(){
+    const role = normalize(fRole?.value);
+    const companyQ = normalize(fCompany?.value);
+    const locQ = normalize(fLocation?.value);
+    const remoteOnly = !!(fRemote && fRemote.checked);
+    const postedDays = parseInt(fPosted?.value || '', 10);
+
+    filtered = allJobs.filter(j => {
+      const title = normalize(j.title);
+      const company = normalize(j.company);
+      const location = normalize(j.location);
+      const tags = (j.tags || []).map(normalize);
+
+      // Role (contains)
+      if (role && !(title.includes(role) || tags.some(t => t.includes(role)))) return false;
+
+      // Company (contains)
+      if (companyQ && !company.includes(companyQ)) return false;
+
+      // Location text (contains)
+      if (locQ && !(location.includes(locQ))) return false;
+
+      // Remote only
+      if (remoteOnly && !(location.includes('remote') || tags.includes('remote'))) return false;
+
+      // Posted within N days
+      if (!isNaN(postedDays) && (j.posted_days ?? 999) > postedDays) return false;
+
+      return true;
+    });
+
+    // reset paging and render
+    page = 1;
+    render();
+  }
+
+  function render(){
+    if (!elList) return;
+
+    // Count
+    if (elCount) elCount.textContent = (filtered?.length || 0);
+
+    if (!filtered.length){
+      elList.textContent = 'No jobs match your filters. Try clearing or widening filters.';
+      moreWrap && (moreWrap.style.display = 'none');
+      return;
+    }
+
+    const end = page * PAGE_SIZE;
+    const slice = filtered.slice(0, end);
+
+    elList.innerHTML = slice.map(j => `
+      <div class="job">
+        <h3>${j.title}</h3>
+        <p>${j.company} — ${j.location} • Posted ${j.posted_days ?? '—'}d • Est. ${j.salary || '—'}</p>
+        <p>${(j.tags || []).slice(0,4).join(' • ')}</p>
+        <a href="${j.url}" target="_blank" rel="noopener" class="apply-link">Apply</a>
+      </div>
+    `).join('');
+
+    // Show/hide Load more
+    if (moreWrap){
+      moreWrap.style.display = filtered.length > end ? 'block' : 'none';
+    }
+  }
+
+  function debounce(fn, ms=250){
+    let t; return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), ms); };
+  }
+
+  async function loadJobs(){
+    if (!elList) return;
     try{
-      const res = await fetch('jobs.json?ts=' + Date.now()); // cache-bust
+      const res = await fetch('jobs.json?ts=' + Date.now());
       if(!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
       const jobs = Array.isArray(data) ? data : (data.jobs || []);
       const updated = data.meta?.updated_at;
 
-      if (badge && updated) {
+      // Show updated badge
+      if (elUpdated && updated){
         const dt = new Date(updated);
-        badge.textContent = `Last updated ${dt.toLocaleString()}`;
+        elUpdated.textContent = `Last updated ${dt.toLocaleString()}`;
       }
 
-      if(!Array.isArray(jobs) || jobs.length === 0){
-        el.textContent = 'No jobs yet. Check back soon.';
-        return;
-      }
-
-      el.innerHTML = jobs.map(j => `
-        <div class="job">
-          <h3>${j.title}</h3>
-          <p>${j.company} — ${j.location} • Posted ${j.posted_days ?? '—'}d • Est. ${j.salary || '—'}</p>
-          <p>${(j.tags || []).slice(0,4).join(' • ')}</p>
-          <a href="${j.url}" target="_blank" rel="noopener" class="apply-link">Apply</a>
-        </div>
-      `).join('');
+      allJobs = jobs;
+      filtered = jobs.slice();
+      render();
     }catch(e){
       console.error(e);
-      el.textContent = 'Error loading jobs. Please try again later.';
-      if (badge) badge.textContent = '';
+      elList.textContent = 'Error loading jobs. Please try again later.';
+      elUpdated && (elUpdated.textContent = '');
     }
   }
   loadJobs();
 
-  // Track Apply clicks (GA4 optional)
+  // Load more
+  if (moreBtn){
+    moreBtn.addEventListener('click', () => { page += 1; render(); });
+  }
+
+  // Filter events
+  if (fRole)    fRole.addEventListener('change', applyFilters);
+  if (fPosted)  fPosted.addEventListener('change', applyFilters);
+  if (fRemote)  fRemote.addEventListener('change', applyFilters);
+
+  const debouncedFilter = debounce(applyFilters, 250);
+  if (fCompany)  fCompany.addEventListener('input', debouncedFilter);
+  if (fLocation) fLocation.addEventListener('input', debouncedFilter);
+
+  if (fClear){
+    fClear.addEventListener('click', () => {
+      if (fRole) fRole.value = '';
+      if (fCompany) fCompany.value = '';
+      if (fLocation) fLocation.value = '';
+      if (fRemote) fRemote.checked = false;
+      if (fPosted) fPosted.value = '';
+      filtered = allJobs.slice();
+      page = 1;
+      render();
+    });
+  }
+
+  // --- GA4: track Apply clicks (optional)
   document.addEventListener('click', (e) => {
     const a = e.target.closest('a.apply-link');
     if (!a) return;
@@ -72,11 +178,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Footer year
+  // --- Footer year
   const y = document.getElementById('year');
   if (y) y.textContent = new Date().getFullYear();
 
-  // Waitlist (Formspree) + UTM capture
+  // --- Waitlist (Formspree) + UTM capture
   const form = document.getElementById('waitlistForm');
   const note = document.getElementById('formNote');
   if (form){
@@ -123,7 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Pricing: interactive select/deselect
+  // --- Pricing card interactivity (click to select/deselect)
   const plans = document.querySelectorAll('.pricing .plan');
   let selected = null;
   plans.forEach((card) => {
