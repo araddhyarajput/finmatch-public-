@@ -1,7 +1,7 @@
 // =============== FinMatch public site script.js ===============
 
 document.addEventListener('DOMContentLoaded', () => {
-  // ---- Mobile nav (safe no-op if not present)
+  // Mobile nav
   const navToggle = document.querySelector('.nav-toggle');
   const navLinks = document.querySelector('.nav-links');
   if (navToggle && navLinks){
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ---- Smooth scroll for internal links (safe if none exist)
+  // Smooth scroll
   document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', e => {
       const id = a.getAttribute('href').slice(1);
@@ -24,12 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // ---- Jobs loader (reads jobs.json at repo root)
+  // Jobs loader
   async function loadJobs(){
     const el = document.getElementById('jobsList');
-    if(!el) return; // No jobs section present
+    if(!el) return;
     try{
-      const res = await fetch('jobs.json?ts=' + Date.now()); // cache-bust
+      const res = await fetch('jobs.json?ts=' + Date.now());
       if(!res.ok) throw new Error('HTTP ' + res.status);
       const jobs = await res.json();
       if(!Array.isArray(jobs) || jobs.length === 0){
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   loadJobs();
 
-  // ---- Track Apply clicks (GA4)
+  // Track Apply clicks (GA4 optional)
   document.addEventListener('click', (e) => {
     const a = e.target.closest('a.apply-link');
     if (!a) return;
@@ -61,29 +61,25 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // ---- Year in footer (safe if element absent)
+  // Footer year
   const y = document.getElementById('year');
   if (y) y.textContent = new Date().getFullYear();
 
-  // ---- Waitlist submission (Formspree) + UTM capture
+  // Waitlist (Formspree) + UTM capture
   const form = document.getElementById('waitlistForm');
   const note = document.getElementById('formNote');
   if (form){
-    // Capture utm_source if present (?utm_source=LinkedIn)
     const params = new URLSearchParams(location.search);
     const utmSource = params.get('utm_source');
     if (utmSource && !form.querySelector('input[name="utm_source"]')) {
       const hiddenUtm = document.createElement('input');
-      hiddenUtm.type = 'hidden';
-      hiddenUtm.name = 'utm_source';
-      hiddenUtm.value = utmSource;
+      hiddenUtm.type = 'hidden'; hiddenUtm.name = 'utm_source'; hiddenUtm.value = utmSource;
       form.appendChild(hiddenUtm);
     }
 
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       if (note) note.textContent = 'Submitting…';
-
       const btn = form.querySelector('button[type="submit"]');
       if (btn){ btn.disabled = true; btn.textContent = 'Submitting…'; }
 
@@ -97,12 +93,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (res.ok) {
           form.reset();
           if (note) note.textContent = 'Thanks! You’re on the list — we’ll email you when beta opens.';
-          // GA4 event
-          window.gtag && gtag('event', 'waitlist_submit', {
-            event_category: 'lead',
-            event_label: 'public_site'
-          });
-          // Optional: redirect to a thank-you page for conversion tracking
+          window.gtag && gtag('event', 'waitlist_submit', { event_category: 'lead', event_label: 'public_site' });
+          // Optional redirect:
           // window.location.href = 'thanks.html';
         } else {
           let msg = 'Something went wrong. Please try again.';
