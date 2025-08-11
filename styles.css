@@ -138,3 +138,83 @@ a { color:#0ea5a3; text-decoration:none; }
 .filters label.checkbox { flex-direction:row; align-items:center; gap:8px; font-weight:600; }
 .filters .actions { justify-content:space-between; margin-top:8px; }
 .filters .count { color:#475569; font-weight:600; }
+/* ---------- Filters (polished) ---------- */
+.filters {
+  position: sticky; top: 64px; z-index: 5;
+  border: 1px solid #e6e8ee; border-radius: 16px;
+  background: rgba(255,255,255,0.86);
+  backdrop-filter: saturate(180%) blur(10px);
+  box-shadow: 0 6px 20px rgba(16,24,40,0.06);
+  padding: 14px 16px; margin-bottom: 16px;
+}
+@media (max-width: 768px){ .filters{ top: 56px; } }
+
+.filters-head {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 10px;
+}
+.filters-title { font-weight: 700; color:#0b1630; }
+.filters-count {
+  font-weight: 600; color:#0b1630; font-size: 13px;
+  background: #eef6f6; border: 1px solid #d7eceb; color:#0b7d79;
+  padding: 6px 10px; border-radius: 999px;
+}
+
+.filters-grid {
+  display: grid; gap: 12px;
+  grid-template-columns: repeat(12, 1fr);
+}
+.field { display: flex; flex-direction: column; gap: 6px; }
+
+.field:nth-child(1){ grid-column: span 3; }  /* role */
+.field:nth-child(2){ grid-column: span 3; }  /* company */
+.field:nth-child(3){ grid-column: span 3; }  /* location */
+.field:nth-child(4){ grid-column: span 2; align-self: end; }  /* remote */
+.field:nth-child(5){ grid-column: span 1; }  /* posted */
+
+@media (max-width: 960px){
+  .field:nth-child(1){ grid-column: span 6; }
+  .field:nth-child(2){ grid-column: span 6; }
+  .field:nth-child(3){ grid-column: span 6; }
+  .field:nth-child(4){ grid-column: span 3; }
+  .field:nth-child(5){ grid-column: span 3; }
+}
+@media (max-width: 640px){
+  .filters-grid { grid-template-columns: 1fr 1fr; }
+  .field { grid-column: span 2; }
+}
+
+.label { font-size: 12px; font-weight: 700; color:#334155; letter-spacing: .02em; }
+.input {
+  padding: 10px 12px; border: 1px solid #dfe3ea; border-radius: 999px; /* pill */
+  font: inherit; background: #fff;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.input:focus { outline: none; border-color:#0ea5a3; box-shadow: 0 0 0 3px rgba(14,165,163,.15); }
+
+.field.checkbox { flex-direction: row; align-items: center; gap: 10px; padding-bottom: 2px; }
+.field.checkbox input { width: 18px; height: 18px; accent-color: #0ea5a3; }
+.field.checkbox .label { margin: 0; font-size: 14px; font-weight: 600; color:#0b1630; }
+
+.filters-actions {
+  display: flex; justify-content: flex-end; margin-top: 8px;
+}
+.btn-ghost {
+  border: 1px solid #dbe3ea; color:#0b1630; background:#fff;
+  padding: 8px 14px; border-radius: 12px; font-weight: 600; cursor: pointer;
+}
+.btn-ghost:hover { border-color:#b7c3cf; background:#f8fafc; }
+
+/* Optional: tighten job cards to match */
+.job {
+  border:1px solid #e6e8ee; border-radius:12px; padding:14px; margin-bottom:12px;
+  background:#fff;
+}
+.job h3 { margin:0 0 6px; color:#0b1630; }
+.job p { margin:0 0 6px; color:#475569; }
+.apply-link {
+  display:inline-block; padding:8px 14px; border-radius:999px;
+  background:#e9f7f6; color:#0b7d79; font-weight:700; text-decoration:none;
+  border:1px solid #cfeceb; transition: transform .05s ease;
+}
+.apply-link:active { transform: translateY(1px); }
