@@ -1,5 +1,14 @@
 [
   {
+    "title": "Corporate Finance & Strategy, FP&A",
+    "company": "Stripe",
+    "location": "San Francisco, New York City, Seattle",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [],
+    "url": "https://stripe.com/jobs/search?gh_jid=6816274"
+  },
+  {
     "title": "Senior Strategic Finance Associate",
     "company": "Chime",
     "location": "San Francisco, CA",
@@ -11,17 +20,6 @@
     "url": "https://boards.greenhouse.io/chime/jobs/8102719002?gh_jid=8102719002"
   },
   {
-    "title": "Sr. Associate, Corporate Finance",
-    "company": "Chime",
-    "location": "San Francisco, CA",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://boards.greenhouse.io/chime/jobs/7991036002?gh_jid=7991036002"
-  },
-  {
     "title": "Associate Principal, Marketing Strategic Finance & Analytics",
     "company": "Airbnb",
     "location": "United States ",
@@ -31,6 +29,17 @@
       "Early-career"
     ],
     "url": "https://careers.airbnb.com/positions/7155307?gh_jid=7155307"
+  },
+  {
+    "title": "Sr. Associate, Corporate Finance",
+    "company": "Chime",
+    "location": "San Francisco, CA",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/7991036002?gh_jid=7991036002"
   },
   {
     "title": "FP&A Analyst",
@@ -76,14 +85,5 @@
     "salary": "—",
     "tags": [],
     "url": "https://www.asana.com/jobs/apply/7091844?gh_jid=7091844"
-  },
-  {
-    "title": "Corporate Finance & Strategy, FP&A",
-    "company": "Stripe",
-    "location": "San Francisco, New York City, Seattle",
-    "posted_days": 7,
-    "salary": "—",
-    "tags": [],
-    "url": "https://stripe.com/jobs/search?gh_jid=6816274"
   }
 ]
