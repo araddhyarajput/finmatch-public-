@@ -33,15 +33,6 @@
     "url": "https://careers.airbnb.com/positions/7155307?gh_jid=7155307"
   },
   {
-    "title": "Financial Analyst, FP&A",
-    "company": "Asana",
-    "location": "San Francisco",
-    "posted_days": 2,
-    "salary": "—",
-    "tags": [],
-    "url": "https://www.asana.com/jobs/apply/7091844?gh_jid=7091844"
-  },
-  {
     "title": "FP&A Analyst",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -60,15 +51,6 @@
     "url": "https://careers.datadoghq.com/detail/6997811/?gh_jid=6997811"
   },
   {
-    "title": "FP&A Manager - NYC",
-    "company": "Datadog",
-    "location": "New York, New York, USA",
-    "posted_days": 3,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.datadoghq.com/detail/7180174/?gh_jid=7180174"
-  },
-  {
     "title": "Senior FP&A Analyst - R&D",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -85,6 +67,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7091867/?gh_jid=7091867"
+  },
+  {
+    "title": "Financial Analyst, FP&A",
+    "company": "Asana",
+    "location": "San Francisco",
+    "posted_days": 3,
+    "salary": "—",
+    "tags": [],
+    "url": "https://www.asana.com/jobs/apply/7091844?gh_jid=7091844"
   },
   {
     "title": "Corporate Finance & Strategy, FP&A",
