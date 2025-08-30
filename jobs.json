@@ -1,14 +1,5 @@
 [
   {
-    "title": "Senior Sales Revenue Analyst",
-    "company": "Datadog",
-    "location": "Boston, Massachusetts, USA; New York, New York, USA",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.datadoghq.com/detail/7091867/?gh_jid=7091867"
-  },
-  {
     "title": "Corporate Finance & Strategy, FP&A",
     "company": "Stripe",
     "location": "San Francisco, New York City, Seattle",
@@ -27,6 +18,15 @@
       "Early-career"
     ],
     "url": "https://careers.airbnb.com/positions/7155307?gh_jid=7155307"
+  },
+  {
+    "title": "Senior Sales Revenue Analyst",
+    "company": "Datadog",
+    "location": "Boston, Massachusetts, USA; New York, New York, USA",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.datadoghq.com/detail/7091867/?gh_jid=7091867"
   },
   {
     "title": "Senior Strategic Finance Associate",
