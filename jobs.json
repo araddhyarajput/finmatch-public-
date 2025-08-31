@@ -1,14 +1,5 @@
 [
   {
-    "title": "Corporate Finance & Strategy, FP&A",
-    "company": "Stripe",
-    "location": "San Francisco, New York City, Seattle",
-    "posted_days": 1,
-    "salary": "—",
-    "tags": [],
-    "url": "https://stripe.com/jobs/search?gh_jid=6816274"
-  },
-  {
     "title": "Senior Sales Revenue Analyst",
     "company": "Datadog",
     "location": "Boston, Massachusetts, USA; New York, New York, USA",
@@ -16,6 +7,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7091867/?gh_jid=7091867"
+  },
+  {
+    "title": "Corporate Finance & Strategy, FP&A",
+    "company": "Stripe",
+    "location": "San Francisco, New York City, Seattle",
+    "posted_days": 2,
+    "salary": "—",
+    "tags": [],
+    "url": "https://stripe.com/jobs/search?gh_jid=6816274"
   },
   {
     "title": "Senior Strategic Finance Associate",
@@ -29,17 +29,6 @@
     "url": "https://boards.greenhouse.io/chime/jobs/8102719002?gh_jid=8102719002"
   },
   {
-    "title": "Sr. Associate, Corporate Finance",
-    "company": "Chime",
-    "location": "San Francisco, CA",
-    "posted_days": 2,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://boards.greenhouse.io/chime/jobs/7991036002?gh_jid=7991036002"
-  },
-  {
     "title": "Associate Principal, Marketing Strategic Finance & Analytics",
     "company": "Airbnb",
     "location": "United States ",
@@ -51,13 +40,15 @@
     "url": "https://careers.airbnb.com/positions/7155307?gh_jid=7155307"
   },
   {
-    "title": "Financial Analyst, FP&A",
-    "company": "Asana",
-    "location": "San Francisco",
-    "posted_days": 4,
+    "title": "Sr. Associate, Corporate Finance",
+    "company": "Chime",
+    "location": "San Francisco, CA",
+    "posted_days": 3,
     "salary": "—",
-    "tags": [],
-    "url": "https://www.asana.com/jobs/apply/7091844?gh_jid=7091844"
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/7991036002?gh_jid=7991036002"
   },
   {
     "title": "FP&A Analyst",
@@ -85,5 +76,14 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7091862/?gh_jid=7091862"
+  },
+  {
+    "title": "Financial Analyst, FP&A",
+    "company": "Asana",
+    "location": "San Francisco",
+    "posted_days": 5,
+    "salary": "—",
+    "tags": [],
+    "url": "https://www.asana.com/jobs/apply/7091844?gh_jid=7091844"
   }
 ]
