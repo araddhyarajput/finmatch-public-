@@ -51,15 +51,6 @@
     "url": "https://careers.airbnb.com/positions/7155307?gh_jid=7155307"
   },
   {
-    "title": "Financial Analyst, FP&A",
-    "company": "Asana",
-    "location": "San Francisco",
-    "posted_days": 5,
-    "salary": "—",
-    "tags": [],
-    "url": "https://www.asana.com/jobs/apply/7091844?gh_jid=7091844"
-  },
-  {
     "title": "FP&A Analyst",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -85,5 +76,14 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7091862/?gh_jid=7091862"
+  },
+  {
+    "title": "Financial Analyst, FP&A",
+    "company": "Asana",
+    "location": "San Francisco",
+    "posted_days": 6,
+    "salary": "—",
+    "tags": [],
+    "url": "https://www.asana.com/jobs/apply/7091844?gh_jid=7091844"
   }
 ]
