@@ -1,14 +1,5 @@
 [
   {
-    "title": "Corporate Finance & Strategy, FP&A",
-    "company": "Stripe",
-    "location": "San Francisco, New York City, Seattle",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [],
-    "url": "https://stripe.com/jobs/search?gh_jid=6816274"
-  },
-  {
     "title": "Strategic Finance Associate",
     "company": "Chime",
     "location": "San Francisco, CA",
@@ -18,6 +9,15 @@
       "Early-career"
     ],
     "url": "https://boards.greenhouse.io/chime/jobs/8009018002?gh_jid=8009018002"
+  },
+  {
+    "title": "Corporate Finance & Strategy, FP&A",
+    "company": "Stripe",
+    "location": "San Francisco, New York City, Seattle",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [],
+    "url": "https://stripe.com/jobs/search?gh_jid=6816274"
   },
   {
     "title": "FP&A Analyst",
@@ -76,14 +76,5 @@
     "salary": "—",
     "tags": [],
     "url": "https://www.asana.com/jobs/apply/7091844?gh_jid=7091844"
-  },
-  {
-    "title": "FP&A Analyst - Data Insights",
-    "company": "Datadog",
-    "location": "New York, New York, USA",
-    "posted_days": 8,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.datadoghq.com/detail/6997811/?gh_jid=6997811"
   }
 ]
