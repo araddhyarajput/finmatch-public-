@@ -12,7 +12,7 @@
     "title": "FP&A Analyst",
     "company": "Datadog",
     "location": "New York, New York, USA",
-    "posted_days": 0,
+    "posted_days": 1,
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/6826438/?gh_jid=6826438"
@@ -21,7 +21,7 @@
     "title": "Senior FP&A Analyst - R&D",
     "company": "Datadog",
     "location": "New York, New York, USA",
-    "posted_days": 0,
+    "posted_days": 1,
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7091862/?gh_jid=7091862"
@@ -34,17 +34,6 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7091867/?gh_jid=7091867"
-  },
-  {
-    "title": "Associate Principal, Marketing Strategic Finance & Analytics",
-    "company": "Airbnb",
-    "location": "United States ",
-    "posted_days": 4,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://careers.airbnb.com/positions/7155307?gh_jid=7155307"
   },
   {
     "title": "Senior Strategic Finance Associate",
@@ -69,15 +58,6 @@
     "url": "https://boards.greenhouse.io/chime/jobs/7991036002?gh_jid=7991036002"
   },
   {
-    "title": "FP&A Analyst - Data Insights",
-    "company": "Datadog",
-    "location": "New York, New York, USA",
-    "posted_days": 7,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.datadoghq.com/detail/6997811/?gh_jid=6997811"
-  },
-  {
     "title": "Financial Analyst, FP&A",
     "company": "Asana",
     "location": "San Francisco",
@@ -85,5 +65,14 @@
     "salary": "—",
     "tags": [],
     "url": "https://www.asana.com/jobs/apply/7091844?gh_jid=7091844"
+  },
+  {
+    "title": "FP&A Analyst - Data Insights",
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "posted_days": 8,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.datadoghq.com/detail/6997811/?gh_jid=6997811"
   }
 ]
