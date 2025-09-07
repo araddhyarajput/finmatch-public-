@@ -1,5 +1,16 @@
 [
   {
+    "title": "Senior Strategic Finance Associate",
+    "company": "Chime",
+    "location": "San Francisco, CA",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/8102719002?gh_jid=8102719002"
+  },
+  {
     "title": "Strategic Finance Analyst II (Business Partnership)",
     "company": "Affirm",
     "location": "Remote Canada",
@@ -13,17 +24,6 @@
   {
     "title": "Strategic Finance Analyst II (Cloud Spend)",
     "company": "Affirm",
-    "location": "Remote Canada",
-    "posted_days": 1,
-    "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/6688865003"
-  },
-  {
-    "title": "Strategic Finance Analyst II (Cloud Spend)",
-    "company": "Affirm",
     "location": "Remote US",
     "posted_days": 1,
     "salary": "—",
@@ -31,6 +31,17 @@
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/6688863003"
+  },
+  {
+    "title": "Strategic Finance Analyst II (Cloud Spend)",
+    "company": "Affirm",
+    "location": "Remote Canada",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/6688865003"
   },
   {
     "title": "Vice President, Strategic Finance",
@@ -42,17 +53,6 @@
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/6557818003"
-  },
-  {
-    "title": "Senior Strategic Finance Associate",
-    "company": "Chime",
-    "location": "San Francisco, CA",
-    "posted_days": 2,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://boards.greenhouse.io/chime/jobs/8102719002?gh_jid=8102719002"
   },
   {
     "title": "Associate Principal, Marketing Strategic Finance & Analytics",
