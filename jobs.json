@@ -55,17 +55,6 @@
     "url": "https://job-boards.greenhouse.io/affirm/jobs/6557818003"
   },
   {
-    "title": "Strategic Finance Associate",
-    "company": "Chime",
-    "location": "San Francisco, CA",
-    "posted_days": 4,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://boards.greenhouse.io/chime/jobs/8009018002?gh_jid=8009018002"
-  },
-  {
     "title": "Associate Principal, Marketing Strategic Finance & Analytics",
     "company": "Airbnb",
     "location": "United States ",
@@ -75,6 +64,17 @@
       "Early-career"
     ],
     "url": "https://careers.airbnb.com/positions/7155307?gh_jid=7155307"
+  },
+  {
+    "title": "Strategic Finance Associate",
+    "company": "Chime",
+    "location": "San Francisco, CA",
+    "posted_days": 5,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/8009018002?gh_jid=8009018002"
   },
   {
     "title": "Senior Sales Revenue Analyst",
@@ -98,7 +98,7 @@
     "title": "FP&A Analyst",
     "company": "Datadog",
     "location": "New York, New York, USA",
-    "posted_days": 6,
+    "posted_days": 7,
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/6826438/?gh_jid=6826438"
@@ -107,7 +107,7 @@
     "title": "Senior FP&A Analyst - R&D",
     "company": "Datadog",
     "location": "New York, New York, USA",
-    "posted_days": 6,
+    "posted_days": 7,
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7091862/?gh_jid=7091862"
