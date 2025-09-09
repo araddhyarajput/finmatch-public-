@@ -1,5 +1,14 @@
 [
   {
+    "title": "Corporate Finance & Strategy, FP&A",
+    "company": "Stripe",
+    "location": "San Francisco, New York City, Seattle",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [],
+    "url": "https://stripe.com/jobs/search?gh_jid=6816274"
+  },
+  {
     "title": "Associate Principal, Marketing Strategic Finance & Analytics",
     "company": "Airbnb",
     "location": "United States ",
@@ -35,17 +44,6 @@
   {
     "title": "Strategic Finance Analyst II (Cloud Spend)",
     "company": "Affirm",
-    "location": "Remote Canada",
-    "posted_days": 1,
-    "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/6688865003"
-  },
-  {
-    "title": "Strategic Finance Analyst II (Cloud Spend)",
-    "company": "Affirm",
     "location": "Remote US",
     "posted_days": 1,
     "salary": "—",
@@ -53,6 +51,17 @@
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/6688863003"
+  },
+  {
+    "title": "Strategic Finance Analyst II (Cloud Spend)",
+    "company": "Affirm",
+    "location": "Remote Canada",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/6688865003"
   },
   {
     "title": "Vice President, Strategic Finance",
@@ -84,15 +93,6 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7091867/?gh_jid=7091867"
-  },
-  {
-    "title": "Corporate Finance & Strategy, FP&A",
-    "company": "Stripe",
-    "location": "San Francisco, New York City, Seattle",
-    "posted_days": 7,
-    "salary": "—",
-    "tags": [],
-    "url": "https://stripe.com/jobs/search?gh_jid=6816274"
   },
   {
     "title": "FP&A Analyst",
