@@ -18,17 +18,6 @@
     "url": "https://stripe.com/jobs/search?gh_jid=6816274"
   },
   {
-    "title": "Strategic Finance Analyst II (Business Partnership)",
-    "company": "Affirm",
-    "location": "Remote Canada",
-    "posted_days": 7,
-    "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/6688869003"
-  },
-  {
     "title": "Strategic Finance Analyst II (Cloud Spend)",
     "company": "Affirm",
     "location": "Remote US",
@@ -38,5 +27,16 @@
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/6688863003"
+  },
+  {
+    "title": "Strategic Finance Analyst II (Business Partnership)",
+    "company": "Affirm",
+    "location": "Remote Canada",
+    "posted_days": 8,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/6688869003"
   }
 ]
