@@ -3,7 +3,7 @@
     "title": "FP&A Analyst",
     "company": "Datadog",
     "location": "New York, New York, USA",
-    "posted_days": 0,
+    "posted_days": 1,
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7250920/?gh_jid=7250920"
@@ -27,17 +27,6 @@
     "url": "https://stripe.com/jobs/search?gh_jid=6816274"
   },
   {
-    "title": "Strategic Finance Analyst II (Cloud Spend)",
-    "company": "Affirm",
-    "location": "Remote US",
-    "posted_days": 9,
-    "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/6688863003"
-  },
-  {
     "title": "Strategic Finance Analyst II (Business Partnership)",
     "company": "Affirm",
     "location": "Remote Canada",
@@ -47,5 +36,16 @@
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/6688869003"
+  },
+  {
+    "title": "Strategic Finance Analyst II (Cloud Spend)",
+    "company": "Affirm",
+    "location": "Remote US",
+    "posted_days": 10,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/6688863003"
   }
 ]
