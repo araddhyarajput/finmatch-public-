@@ -1,5 +1,27 @@
 [
   {
+    "title": "Associate, Corporate Finance",
+    "company": "Chime",
+    "location": "San Francisco, CA",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/8189686002?gh_jid=8189686002"
+  },
+  {
+    "title": "Strategic Finance Associate",
+    "company": "Chime",
+    "location": "San Francisco, CA",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/8009018002?gh_jid=8009018002"
+  },
+  {
     "title": "Manager I, Engineering - AI Platform, Annotation & Evaluation",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -18,27 +40,5 @@
       "Early-career"
     ],
     "url": "https://careers.airbnb.com/positions/7155307?gh_jid=7155307"
-  },
-  {
-    "title": "Strategic Finance Associate",
-    "company": "Chime",
-    "location": "San Francisco, CA",
-    "posted_days": 6,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://boards.greenhouse.io/chime/jobs/8009018002?gh_jid=8009018002"
-  },
-  {
-    "title": "Associate, Corporate Finance",
-    "company": "Chime",
-    "location": "San Francisco, CA",
-    "posted_days": 7,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://boards.greenhouse.io/chime/jobs/8189686002?gh_jid=8189686002"
   }
 ]
