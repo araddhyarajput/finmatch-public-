@@ -3,7 +3,7 @@
     "title": "FP&A, Corporate and Strategic Finance",
     "company": "Asana",
     "location": "San Francisco",
-    "posted_days": 0,
+    "posted_days": 1,
     "salary": "—",
     "tags": [],
     "url": "https://www.asana.com/jobs/apply/7366080?gh_jid=7366080"
@@ -33,17 +33,6 @@
   {
     "title": "Strategic Finance Analyst II (Revenue, Marketplace)",
     "company": "Affirm",
-    "location": "Remote US",
-    "posted_days": 8,
-    "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7486155003"
-  },
-  {
-    "title": "Strategic Finance Analyst II (Revenue, Marketplace)",
-    "company": "Affirm",
     "location": "Remote Canada",
     "posted_days": 8,
     "salary": "—",
@@ -51,5 +40,16 @@
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7486157003"
+  },
+  {
+    "title": "Strategic Finance Analyst II (Revenue, Marketplace)",
+    "company": "Affirm",
+    "location": "Remote US",
+    "posted_days": 8,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7486155003"
   }
 ]
