@@ -1,14 +1,5 @@
 [
   {
-    "title": "Analyst, Strategic Finance and Analytics, Technology",
-    "company": "Airbnb",
-    "location": "United States ",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.airbnb.com/positions/7456094?gh_jid=7456094"
-  },
-  {
     "title": "FP&A, Corporate and Strategic Finance",
     "company": "Asana",
     "location": "San Francisco",
@@ -16,6 +7,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://www.asana.com/jobs/apply/7366080?gh_jid=7366080"
+  },
+  {
+    "title": "Analyst, Strategic Finance and Analytics, Technology",
+    "company": "Airbnb",
+    "location": "United States ",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.airbnb.com/positions/7456094?gh_jid=7456094"
   },
   {
     "title": "Senior FP&A Analyst - NYC",
@@ -29,17 +29,6 @@
   {
     "title": "Strategic Finance Analyst II (Revenue, Marketplace)",
     "company": "Affirm",
-    "location": "Remote Canada",
-    "posted_days": 1,
-    "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7486157003"
-  },
-  {
-    "title": "Strategic Finance Analyst II (Revenue, Marketplace)",
-    "company": "Affirm",
     "location": "Remote US",
     "posted_days": 1,
     "salary": "—",
@@ -47,5 +36,16 @@
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7486155003"
+  },
+  {
+    "title": "Strategic Finance Analyst II (Revenue, Marketplace)",
+    "company": "Affirm",
+    "location": "Remote Canada",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7486157003"
   }
 ]
