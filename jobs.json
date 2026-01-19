@@ -1,16 +1,5 @@
 [
   {
-    "title": "Strategic Finance Associate",
-    "company": "Chime",
-    "location": "San Francisco, CA",
-    "posted_days": 5,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://boards.greenhouse.io/chime/jobs/8361729002?gh_jid=8361729002"
-  },
-  {
     "title": "Analyst, Strategic Finance and Analytics, Technology",
     "company": "Airbnb",
     "location": "United States ",
@@ -36,6 +25,17 @@
     "salary": "—",
     "tags": [],
     "url": "https://www.asana.com/jobs/apply/7366080?gh_jid=7366080"
+  },
+  {
+    "title": "Strategic Finance Associate",
+    "company": "Chime",
+    "location": "San Francisco, CA",
+    "posted_days": 6,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/8361729002?gh_jid=8361729002"
   },
   {
     "title": "Technical Program Manager, AI Evaluation Specialist",
