@@ -9,17 +9,6 @@
     "url": "https://stripe.com/jobs/search?gh_jid=7577505"
   },
   {
-    "title": "Senior Associate, Strategic Finance",
-    "company": "Chime",
-    "location": "San Francisco, CA",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://boards.greenhouse.io/chime/jobs/8361729002?gh_jid=8361729002"
-  },
-  {
     "title": "Strategic Finance & Analytics Intern (MBA/MS)",
     "company": "Airbnb",
     "location": "United States",
@@ -27,6 +16,17 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.airbnb.com/positions/7488879?gh_jid=7488879"
+  },
+  {
+    "title": "Senior Associate, Strategic Finance",
+    "company": "Chime",
+    "location": "San Francisco, CA",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/8361729002?gh_jid=8361729002"
   },
   {
     "title": "Technical Program Manager, AI Evaluation Specialist",
