@@ -1,5 +1,16 @@
 [
   {
+    "title": "Technical Program Manager, AI Evaluation Specialist",
+    "company": "Chime",
+    "location": "Remote - US",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/8133306002?gh_jid=8133306002"
+  },
+  {
     "title": "Bridge Data & Finance Analyst",
     "company": "Stripe",
     "location": "San Francisco",
@@ -7,15 +18,6 @@
     "salary": "—",
     "tags": [],
     "url": "https://stripe.com/jobs/search?gh_jid=7577505"
-  },
-  {
-    "title": "Strategic Finance & Analytics Intern (MBA/MS)",
-    "company": "Airbnb",
-    "location": "United States",
-    "posted_days": 4,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.airbnb.com/positions/7488879?gh_jid=7488879"
   },
   {
     "title": "FP&A, Corporate and Strategic Finance",
@@ -27,14 +29,12 @@
     "url": "https://www.asana.com/jobs/apply/7366080?gh_jid=7366080"
   },
   {
-    "title": "Technical Program Manager, AI Evaluation Specialist",
-    "company": "Chime",
-    "location": "Remote - US",
-    "posted_days": 6,
+    "title": "Strategic Finance & Analytics Intern (MBA/MS)",
+    "company": "Airbnb",
+    "location": "United States",
+    "posted_days": 5,
     "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://boards.greenhouse.io/chime/jobs/8133306002?gh_jid=8133306002"
+    "tags": [],
+    "url": "https://careers.airbnb.com/positions/7488879?gh_jid=7488879"
   }
 ]
