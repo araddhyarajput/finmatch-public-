@@ -1,14 +1,5 @@
 [
   {
-    "title": "Sr. Marketing Financial Analyst",
-    "company": "Chime",
-    "location": "San Francisco, CA",
-    "posted_days": 1,
-    "salary": "—",
-    "tags": [],
-    "url": "https://boards.greenhouse.io/chime/jobs/8407777002?gh_jid=8407777002"
-  },
-  {
     "title": "Manager, AI Operations & Evaluation",
     "company": "Chime",
     "location": "San Francisco, CA; United States",
@@ -16,6 +7,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://boards.greenhouse.io/chime/jobs/8407495002?gh_jid=8407495002"
+  },
+  {
+    "title": "Sr. Marketing Financial Analyst",
+    "company": "Chime",
+    "location": "San Francisco, CA",
+    "posted_days": 2,
+    "salary": "—",
+    "tags": [],
+    "url": "https://boards.greenhouse.io/chime/jobs/8407777002?gh_jid=8407777002"
   },
   {
     "title": "Strategic Finance Manager",
@@ -39,7 +39,7 @@
     "title": "Bridge Data & Finance Analyst",
     "company": "Stripe",
     "location": "San Francisco",
-    "posted_days": 4,
+    "posted_days": 5,
     "salary": "—",
     "tags": [],
     "url": "https://stripe.com/jobs/search?gh_jid=7577505"
