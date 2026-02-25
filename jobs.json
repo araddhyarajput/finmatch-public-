@@ -1,14 +1,5 @@
 [
   {
-    "title": "Senior FP&A Analyst - NYC",
-    "company": "Datadog",
-    "location": "New York, New York, USA",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.datadoghq.com/detail/7467351/?gh_jid=7467351"
-  },
-  {
     "title": "Bridge Data & Finance Analyst",
     "company": "Stripe",
     "location": "San Francisco",
@@ -34,6 +25,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://boards.greenhouse.io/chime/jobs/8420669002?gh_jid=8420669002"
+  },
+  {
+    "title": "Senior FP&A Analyst - NYC",
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.datadoghq.com/detail/7467351/?gh_jid=7467351"
   },
   {
     "title": "Manager, AI Operations & Evaluation",
