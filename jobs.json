@@ -9,10 +9,19 @@
     "url": "https://stripe.com/jobs/search?gh_jid=7577505"
   },
   {
+    "title": "Senior FP&A Analyst - NYC",
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.datadoghq.com/detail/7467351/?gh_jid=7467351"
+  },
+  {
     "title": "Sr. Marketing Financial Analyst",
     "company": "Chime",
     "location": "San Francisco, CA",
-    "posted_days": 1,
+    "posted_days": 2,
     "salary": "—",
     "tags": [],
     "url": "https://boards.greenhouse.io/chime/jobs/8407777002?gh_jid=8407777002"
@@ -21,19 +30,10 @@
     "title": "Strategic Finance Manager",
     "company": "Chime",
     "location": "San Francisco, CA",
-    "posted_days": 1,
+    "posted_days": 2,
     "salary": "—",
     "tags": [],
     "url": "https://boards.greenhouse.io/chime/jobs/8420669002?gh_jid=8420669002"
-  },
-  {
-    "title": "Senior FP&A Analyst - NYC",
-    "company": "Datadog",
-    "location": "New York, New York, USA",
-    "posted_days": 1,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.datadoghq.com/detail/7467351/?gh_jid=7467351"
   },
   {
     "title": "Manager, AI Operations & Evaluation",
