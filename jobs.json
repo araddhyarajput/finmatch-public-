@@ -9,15 +9,6 @@
     "url": "https://boards.greenhouse.io/chime/jobs/8407777002?gh_jid=8407777002"
   },
   {
-    "title": "Bridge Data & Finance Analyst",
-    "company": "Stripe",
-    "location": "San Francisco",
-    "posted_days": 1,
-    "salary": "—",
-    "tags": [],
-    "url": "https://stripe.com/jobs/search?gh_jid=7577505"
-  },
-  {
     "title": "Senior FP&A Analyst - NYC",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -25,6 +16,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7467351/?gh_jid=7467351"
+  },
+  {
+    "title": "Bridge Data & Finance Analyst",
+    "company": "Stripe",
+    "location": "San Francisco",
+    "posted_days": 2,
+    "salary": "—",
+    "tags": [],
+    "url": "https://stripe.com/jobs/search?gh_jid=7577505"
   },
   {
     "title": "Strategic Finance Manager",
