@@ -11,15 +11,6 @@
     "url": "https://careers.datadoghq.com/detail/7624017/?gh_jid=7624017"
   },
   {
-    "title": "Bridge Data & Finance Analyst",
-    "company": "Stripe",
-    "location": "San Francisco",
-    "posted_days": 1,
-    "salary": "—",
-    "tags": [],
-    "url": "https://stripe.com/jobs/search?gh_jid=7577505"
-  },
-  {
     "title": "Manager I, Engineering - AI Platform - Annotation & Evaluation",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -27,6 +18,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7613808/?gh_jid=7613808"
+  },
+  {
+    "title": "Bridge Data & Finance Analyst",
+    "company": "Stripe",
+    "location": "San Francisco",
+    "posted_days": 2,
+    "salary": "—",
+    "tags": [],
+    "url": "https://stripe.com/jobs/search?gh_jid=7577505"
   },
   {
     "title": "Sr. Marketing Financial Analyst",
