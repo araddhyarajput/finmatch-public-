@@ -1,5 +1,23 @@
 [
   {
+    "title": "Sr. Marketing Financial Analyst",
+    "company": "Chime",
+    "location": "San Francisco, CA, USA",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [],
+    "url": "https://boards.greenhouse.io/chime/jobs/8407777002?gh_jid=8407777002"
+  },
+  {
+    "title": "Strategic Finance Manager",
+    "company": "Chime",
+    "location": "San Francisco, CA, USA",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [],
+    "url": "https://boards.greenhouse.io/chime/jobs/8420669002?gh_jid=8420669002"
+  },
+  {
     "title": "Manager I, Engineering - AI Platform - Annotation & Evaluation",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -36,23 +54,5 @@
       "Early-career"
     ],
     "url": "https://careers.datadoghq.com/detail/7624017/?gh_jid=7624017"
-  },
-  {
-    "title": "Sr. Marketing Financial Analyst",
-    "company": "Chime",
-    "location": "San Francisco, CA, USA",
-    "posted_days": 6,
-    "salary": "—",
-    "tags": [],
-    "url": "https://boards.greenhouse.io/chime/jobs/8407777002?gh_jid=8407777002"
-  },
-  {
-    "title": "Strategic Finance Manager",
-    "company": "Chime",
-    "location": "San Francisco, CA, USA",
-    "posted_days": 6,
-    "salary": "—",
-    "tags": [],
-    "url": "https://boards.greenhouse.io/chime/jobs/8420669002?gh_jid=8420669002"
   }
 ]
