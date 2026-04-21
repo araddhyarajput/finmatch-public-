@@ -1,5 +1,14 @@
 [
   {
+    "title": "Strategic Finance Partner",
+    "company": "Stripe",
+    "location": "San Francisco",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [],
+    "url": "https://stripe.com/jobs/search?gh_jid=7577505"
+  },
+  {
     "title": "Senior Associate, Strategic Finance",
     "company": "Chime",
     "location": "San Francisco, CA, USA",
@@ -32,7 +41,7 @@
     "title": "Financial Analyst, FP&A",
     "company": "Asana",
     "location": "San Francisco",
-    "posted_days": 0,
+    "posted_days": 1,
     "salary": "—",
     "tags": [],
     "url": "https://www.asana.com/jobs/apply/7770046?gh_jid=7770046"
@@ -41,18 +50,9 @@
     "title": "Head of Strategic Finance",
     "company": "Asana",
     "location": "San Francisco",
-    "posted_days": 0,
+    "posted_days": 1,
     "salary": "—",
     "tags": [],
     "url": "https://www.asana.com/jobs/apply/7719415?gh_jid=7719415"
-  },
-  {
-    "title": "Strategic Finance Partner",
-    "company": "Stripe",
-    "location": "San Francisco",
-    "posted_days": 5,
-    "salary": "—",
-    "tags": [],
-    "url": "https://stripe.com/jobs/search?gh_jid=7577505"
   }
 ]
