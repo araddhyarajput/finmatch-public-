@@ -2,17 +2,6 @@
   {
     "title": "Senior Manager, Strategic Finance (Revenue)",
     "company": "Affirm",
-    "location": "Remote Canada",
-    "posted_days": 2,
-    "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7692257003"
-  },
-  {
-    "title": "Senior Manager, Strategic Finance (Revenue)",
-    "company": "Affirm",
     "location": "Remote US",
     "posted_days": 2,
     "salary": "—",
@@ -20,6 +9,17 @@
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7692255003"
+  },
+  {
+    "title": "Senior Manager, Strategic Finance (Revenue)",
+    "company": "Affirm",
+    "location": "Remote Canada",
+    "posted_days": 2,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7692257003"
   },
   {
     "title": "Financial Analyst, FP&A",
@@ -42,17 +42,6 @@
   {
     "title": "Strategic Finance Manager (Revenue)",
     "company": "Affirm",
-    "location": "Remote US",
-    "posted_days": 3,
-    "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7702469003"
-  },
-  {
-    "title": "Strategic Finance Manager (Revenue)",
-    "company": "Affirm",
     "location": "Remote Canada",
     "posted_days": 3,
     "salary": "—",
@@ -60,6 +49,17 @@
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7702471003"
+  },
+  {
+    "title": "Strategic Finance Manager (Revenue)",
+    "company": "Affirm",
+    "location": "Remote US",
+    "posted_days": 3,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7702469003"
   },
   {
     "title": "Strategic Finance Partner",
@@ -116,16 +116,5 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7587086/?gh_jid=7587086"
-  },
-  {
-    "title": "Strategic Finance Associate - NYC",
-    "company": "Datadog",
-    "location": "New York, New York, USA",
-    "posted_days": 8,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://careers.datadoghq.com/detail/7624017/?gh_jid=7624017"
   }
 ]
