@@ -40,17 +40,6 @@
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7724227003"
   },
   {
-    "title": "Associate Principal, Strategic Finance - CBO",
-    "company": "Airbnb",
-    "location": "United States",
-    "posted_days": 1,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://careers.airbnb.com/positions/7871746?gh_jid=7871746"
-  },
-  {
     "title": "Manager I, Engineering - AI Platform - Annotation & Evaluation",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -76,6 +65,17 @@
     "salary": "—",
     "tags": [],
     "url": "https://stripe.com/jobs/search?gh_jid=7577505"
+  },
+  {
+    "title": "Associate Principal, Strategic Finance - CBO",
+    "company": "Airbnb",
+    "location": "United States",
+    "posted_days": 2,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://careers.airbnb.com/positions/7871746?gh_jid=7871746"
   },
   {
     "title": "Strategic Finance Lead (Revenue)",
