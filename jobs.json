@@ -78,17 +78,6 @@
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7724227003"
   },
   {
-    "title": "Associate Principal, Strategic Finance - CBO",
-    "company": "Airbnb",
-    "location": "United States",
-    "posted_days": 8,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://careers.airbnb.com/positions/7871746?gh_jid=7871746"
-  },
-  {
     "title": "Sales Revenue Analyst - NYC",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -96,5 +85,16 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7587086/?gh_jid=7587086"
+  },
+  {
+    "title": "Associate Principal, Strategic Finance - CBO",
+    "company": "Airbnb",
+    "location": "United States",
+    "posted_days": 9,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://careers.airbnb.com/positions/7871746?gh_jid=7871746"
   }
 ]
