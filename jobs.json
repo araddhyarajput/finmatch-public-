@@ -1,14 +1,5 @@
 [
   {
-    "title": "Sales Revenue Analyst - NYC",
-    "company": "Datadog",
-    "location": "New York, New York, USA",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.datadoghq.com/detail/7587086/?gh_jid=7587086"
-  },
-  {
     "title": "Financial Analyst, FP&A",
     "company": "Asana",
     "location": "San Francisco",
@@ -34,6 +25,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://stripe.com/jobs/search?gh_jid=7577505"
+  },
+  {
+    "title": "Sales Revenue Analyst - NYC",
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.datadoghq.com/detail/7587086/?gh_jid=7587086"
   },
   {
     "title": "Senior Manager, Strategic Finance",
@@ -85,16 +85,5 @@
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7724227003"
-  },
-  {
-    "title": "Associate Principal, Strategic Finance - CBO",
-    "company": "Airbnb",
-    "location": "United States",
-    "posted_days": 10,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://careers.airbnb.com/positions/7871746?gh_jid=7871746"
   }
 ]
