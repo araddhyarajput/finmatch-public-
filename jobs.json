@@ -1,14 +1,5 @@
 [
   {
-    "title": "Financial Analyst, FP&A",
-    "company": "Asana",
-    "location": "San Francisco",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [],
-    "url": "https://www.asana.com/jobs/apply/7770046?gh_jid=7770046"
-  },
-  {
     "title": "FP&A Analyst - Data Insights",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -16,6 +7,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7964916/?gh_jid=7964916"
+  },
+  {
+    "title": "Financial Analyst, FP&A",
+    "company": "Asana",
+    "location": "San Francisco",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [],
+    "url": "https://www.asana.com/jobs/apply/7770046?gh_jid=7770046"
   },
   {
     "title": "Senior Manager, Strategic Finance",
@@ -89,17 +89,6 @@
   {
     "title": "Strategic Finance Analyst II (Revenue)",
     "company": "Affirm",
-    "location": "Remote Canada",
-    "posted_days": 7,
-    "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7724229003"
-  },
-  {
-    "title": "Strategic Finance Analyst II (Revenue)",
-    "company": "Affirm",
     "location": "Remote US",
     "posted_days": 7,
     "salary": "—",
@@ -107,6 +96,17 @@
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7724227003"
+  },
+  {
+    "title": "Strategic Finance Analyst II (Revenue)",
+    "company": "Affirm",
+    "location": "Remote Canada",
+    "posted_days": 7,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7724229003"
   },
   {
     "title": "Strategic Finance Lead (Revenue)",
