@@ -36,15 +36,6 @@
     "url": "https://boards.greenhouse.io/chime/jobs/8531753002?gh_jid=8531753002"
   },
   {
-    "title": "Strategic Finance Partner",
-    "company": "Stripe",
-    "location": "San Francisco",
-    "posted_days": 8,
-    "salary": "—",
-    "tags": [],
-    "url": "https://stripe.com/jobs/search?gh_jid=7577505"
-  },
-  {
     "title": "Sr. Associate, Corporate Finance",
     "company": "Chime",
     "location": "San Francisco, CA, USA",
@@ -63,5 +54,14 @@
     "salary": "—",
     "tags": [],
     "url": "https://boards.greenhouse.io/chime/jobs/8420669002?gh_jid=8420669002"
+  },
+  {
+    "title": "Strategic Finance Partner",
+    "company": "Stripe",
+    "location": "San Francisco",
+    "posted_days": 9,
+    "salary": "—",
+    "tags": [],
+    "url": "https://stripe.com/jobs/search?gh_jid=7577505"
   }
 ]
