@@ -1,5 +1,14 @@
 [
   {
+    "title": "Financial Analyst, FP&A",
+    "company": "Asana",
+    "location": "San Francisco",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [],
+    "url": "https://www.asana.com/jobs/apply/7770046?gh_jid=7770046"
+  },
+  {
     "title": "FP&A Analyst - Data Insights",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -18,15 +27,6 @@
     "url": "https://careers.datadoghq.com/detail/7587086/?gh_jid=7587086"
   },
   {
-    "title": "Financial Analyst, FP&A",
-    "company": "Asana",
-    "location": "San Francisco",
-    "posted_days": 5,
-    "salary": "—",
-    "tags": [],
-    "url": "https://www.asana.com/jobs/apply/7770046?gh_jid=7770046"
-  },
-  {
     "title": "Senior Manager, Strategic Finance",
     "company": "Chime",
     "location": "San Francisco, CA, USA",
@@ -34,15 +34,6 @@
     "salary": "—",
     "tags": [],
     "url": "https://boards.greenhouse.io/chime/jobs/8531753002?gh_jid=8531753002"
-  },
-  {
-    "title": "Strategic Finance Partner",
-    "company": "Stripe",
-    "location": "San Francisco",
-    "posted_days": 9,
-    "salary": "—",
-    "tags": [],
-    "url": "https://stripe.com/jobs/search?gh_jid=7577505"
   },
   {
     "title": "Sr. Associate, Corporate Finance",
@@ -63,5 +54,14 @@
     "salary": "—",
     "tags": [],
     "url": "https://boards.greenhouse.io/chime/jobs/8420669002?gh_jid=8420669002"
+  },
+  {
+    "title": "Strategic Finance Partner",
+    "company": "Stripe",
+    "location": "San Francisco",
+    "posted_days": 10,
+    "salary": "—",
+    "tags": [],
+    "url": "https://stripe.com/jobs/search?gh_jid=7577505"
   }
 ]
