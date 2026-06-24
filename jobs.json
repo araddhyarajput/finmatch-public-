@@ -1,14 +1,5 @@
 [
   {
-    "title": "Financial Analyst, FP&A",
-    "company": "Asana",
-    "location": "San Francisco",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [],
-    "url": "https://www.asana.com/jobs/apply/7770046?gh_jid=7770046"
-  },
-  {
     "title": "Senior Manager, Strategic Finance",
     "company": "Chime",
     "location": "San Francisco, CA, USA",
@@ -36,6 +27,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://boards.greenhouse.io/chime/jobs/8420669002?gh_jid=8420669002"
+  },
+  {
+    "title": "Financial Analyst, FP&A",
+    "company": "Asana",
+    "location": "San Francisco",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [],
+    "url": "https://www.asana.com/jobs/apply/7770046?gh_jid=7770046"
   },
   {
     "title": "Strategic Finance Partner",
