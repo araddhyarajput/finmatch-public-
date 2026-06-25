@@ -11,15 +11,6 @@
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7692255003"
   },
   {
-    "title": "Financial Analyst, FP&A",
-    "company": "Asana",
-    "location": "San Francisco",
-    "posted_days": 1,
-    "salary": "—",
-    "tags": [],
-    "url": "https://www.asana.com/jobs/apply/7770046?gh_jid=7770046"
-  },
-  {
     "title": "Senior Manager, Strategic Finance",
     "company": "Chime",
     "location": "San Francisco, CA, USA",
@@ -47,6 +38,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://boards.greenhouse.io/chime/jobs/8420669002?gh_jid=8420669002"
+  },
+  {
+    "title": "Financial Analyst, FP&A",
+    "company": "Asana",
+    "location": "San Francisco",
+    "posted_days": 2,
+    "salary": "—",
+    "tags": [],
+    "url": "https://www.asana.com/jobs/apply/7770046?gh_jid=7770046"
   },
   {
     "title": "Strategic Finance Partner",
@@ -93,17 +93,6 @@
   {
     "title": "Strategic Finance Lead (Revenue)",
     "company": "Affirm",
-    "location": "Remote Canada",
-    "posted_days": 6,
-    "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7717901003"
-  },
-  {
-    "title": "Strategic Finance Lead (Revenue)",
-    "company": "Affirm",
     "location": "Remote US",
     "posted_days": 6,
     "salary": "—",
@@ -111,6 +100,17 @@
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7717899003"
+  },
+  {
+    "title": "Strategic Finance Lead (Revenue)",
+    "company": "Affirm",
+    "location": "Remote Canada",
+    "posted_days": 6,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7717901003"
   },
   {
     "title": "Strategic Finance Manager (Revenue)",
