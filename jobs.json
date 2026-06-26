@@ -52,7 +52,7 @@
     "title": "Strategic Finance Partner",
     "company": "Stripe",
     "location": "San Francisco",
-    "posted_days": 6,
+    "posted_days": 7,
     "salary": "—",
     "tags": [],
     "url": "https://stripe.com/jobs/search?gh_jid=7577505"
@@ -61,7 +61,7 @@
     "title": "Senior Manager, Strategic Finance (Revenue)",
     "company": "Affirm",
     "location": "Remote Canada",
-    "posted_days": 7,
+    "posted_days": 8,
     "salary": "—",
     "tags": [
       "Remote"
@@ -71,19 +71,8 @@
   {
     "title": "Strategic Finance Analyst II (Revenue)",
     "company": "Affirm",
-    "location": "Remote Canada",
-    "posted_days": 7,
-    "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7724229003"
-  },
-  {
-    "title": "Strategic Finance Analyst II (Revenue)",
-    "company": "Affirm",
     "location": "Remote US",
-    "posted_days": 7,
+    "posted_days": 8,
     "salary": "—",
     "tags": [
       "Remote"
@@ -91,10 +80,21 @@
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7724227003"
   },
   {
+    "title": "Strategic Finance Analyst II (Revenue)",
+    "company": "Affirm",
+    "location": "Remote Canada",
+    "posted_days": 8,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7724229003"
+  },
+  {
     "title": "Strategic Finance Lead (Revenue)",
     "company": "Affirm",
     "location": "Remote US",
-    "posted_days": 7,
+    "posted_days": 8,
     "salary": "—",
     "tags": [
       "Remote"
@@ -105,7 +105,7 @@
     "title": "Strategic Finance Lead (Revenue)",
     "company": "Affirm",
     "location": "Remote Canada",
-    "posted_days": 7,
+    "posted_days": 8,
     "salary": "—",
     "tags": [
       "Remote"
@@ -115,23 +115,23 @@
   {
     "title": "Strategic Finance Manager (Revenue)",
     "company": "Affirm",
-    "location": "Remote Canada",
-    "posted_days": 7,
-    "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7702471003"
-  },
-  {
-    "title": "Strategic Finance Manager (Revenue)",
-    "company": "Affirm",
     "location": "Remote US",
-    "posted_days": 7,
+    "posted_days": 8,
     "salary": "—",
     "tags": [
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7702469003"
+  },
+  {
+    "title": "Strategic Finance Manager (Revenue)",
+    "company": "Affirm",
+    "location": "Remote Canada",
+    "posted_days": 8,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7702471003"
   }
 ]
