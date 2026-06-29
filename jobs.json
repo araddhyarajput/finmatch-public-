@@ -1,14 +1,5 @@
 [
   {
-    "title": "Financial Analyst, FP&A",
-    "company": "Asana",
-    "location": "San Francisco",
-    "posted_days": 1,
-    "salary": "—",
-    "tags": [],
-    "url": "https://www.asana.com/jobs/apply/7770046?gh_jid=7770046"
-  },
-  {
     "title": "Strategic Finance Partner",
     "company": "Stripe",
     "location": "San Francisco",
@@ -25,6 +16,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/8030354/?gh_jid=8030354"
+  },
+  {
+    "title": "Financial Analyst, FP&A",
+    "company": "Asana",
+    "location": "San Francisco",
+    "posted_days": 2,
+    "salary": "—",
+    "tags": [],
+    "url": "https://www.asana.com/jobs/apply/7770046?gh_jid=7770046"
   },
   {
     "title": "Senior Manager, Strategic Finance",
