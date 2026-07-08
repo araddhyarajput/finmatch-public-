@@ -11,17 +11,6 @@
   {
     "title": "Senior Manager, Strategic Finance (Revenue)",
     "company": "Affirm",
-    "location": "Remote Canada",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7777622003"
-  },
-  {
-    "title": "Senior Manager, Strategic Finance (Revenue)",
-    "company": "Affirm",
     "location": "Remote US",
     "posted_days": 0,
     "salary": "—",
@@ -29,6 +18,17 @@
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7777620003"
+  },
+  {
+    "title": "Senior Manager, Strategic Finance (Revenue)",
+    "company": "Affirm",
+    "location": "Remote Canada",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7777622003"
   },
   {
     "title": "Associate Principal, Strategic Finance & Analytics",
@@ -60,15 +60,6 @@
     "url": "https://boards.greenhouse.io/chime/jobs/8420669002?gh_jid=8420669002"
   },
   {
-    "title": "Financial Analyst, FP&A",
-    "company": "Asana",
-    "location": "San Francisco",
-    "posted_days": 6,
-    "salary": "—",
-    "tags": [],
-    "url": "https://www.asana.com/jobs/apply/7770046?gh_jid=7770046"
-  },
-  {
     "title": "Senior Manager, GTM FP&A",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -76,6 +67,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/8030354/?gh_jid=8030354"
+  },
+  {
+    "title": "Financial Analyst, FP&A",
+    "company": "Asana",
+    "location": "San Francisco",
+    "posted_days": 7,
+    "salary": "—",
+    "tags": [],
+    "url": "https://www.asana.com/jobs/apply/7770046?gh_jid=7770046"
   },
   {
     "title": "Sr. Associate, Corporate Finance",
