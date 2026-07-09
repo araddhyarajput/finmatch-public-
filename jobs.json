@@ -23,21 +23,10 @@
     "title": "Sales Revenue Analyst - Boston",
     "company": "Datadog",
     "location": "Boston, Massachusetts, USA",
-    "posted_days": 1,
+    "posted_days": 2,
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7587086/?gh_jid=7587086"
-  },
-  {
-    "title": "Senior Manager, Strategic Finance (Revenue)",
-    "company": "Affirm",
-    "location": "Remote US",
-    "posted_days": 2,
-    "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7777620003"
   },
   {
     "title": "Senior Manager, Strategic Finance (Revenue)",
@@ -49,6 +38,17 @@
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7777622003"
+  },
+  {
+    "title": "Senior Manager, Strategic Finance (Revenue)",
+    "company": "Affirm",
+    "location": "Remote US",
+    "posted_days": 2,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7777620003"
   },
   {
     "title": "Associate Principal, Strategic Finance & Analytics",
