@@ -1,5 +1,25 @@
 [
   {
+    "title": "Senior Associate, Strategic Finance",
+    "company": "Chime",
+    "location": "San Francisco, CA, USA",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/8584950002?gh_jid=8584950002"
+  },
+  {
+    "title": "Senior Manager, GTM FP&A",
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.datadoghq.com/detail/8030354/?gh_jid=8030354"
+  },
+  {
     "title": "Sales Revenue Analyst - Boston",
     "company": "Datadog",
     "location": "Boston, Massachusetts, USA",
@@ -7,17 +27,6 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7587086/?gh_jid=7587086"
-  },
-  {
-    "title": "Senior Manager, Strategic Finance (Revenue)",
-    "company": "Affirm",
-    "location": "Remote Canada",
-    "posted_days": 2,
-    "salary": "—",
-    "tags": [
-      "Remote"
-    ],
-    "url": "https://job-boards.greenhouse.io/affirm/jobs/7777622003"
   },
   {
     "title": "Senior Manager, Strategic Finance (Revenue)",
@@ -31,10 +40,21 @@
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7777620003"
   },
   {
+    "title": "Senior Manager, Strategic Finance (Revenue)",
+    "company": "Affirm",
+    "location": "Remote Canada",
+    "posted_days": 2,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7777622003"
+  },
+  {
     "title": "Associate Principal, Strategic Finance & Analytics",
     "company": "Airbnb",
     "location": "United States ",
-    "posted_days": 6,
+    "posted_days": 7,
     "salary": "—",
     "tags": [
       "Early-career"
@@ -69,14 +89,5 @@
       "Early-career"
     ],
     "url": "https://boards.greenhouse.io/chime/jobs/8548875002?gh_jid=8548875002"
-  },
-  {
-    "title": "Senior Manager, GTM FP&A",
-    "company": "Datadog",
-    "location": "New York, New York, USA",
-    "posted_days": 9,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.datadoghq.com/detail/8030354/?gh_jid=8030354"
   }
 ]
