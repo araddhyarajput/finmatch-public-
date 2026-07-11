@@ -1,16 +1,5 @@
 [
   {
-    "title": "Senior Associate, Strategic Finance",
-    "company": "Chime",
-    "location": "San Francisco, CA, USA",
-    "posted_days": 1,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://boards.greenhouse.io/chime/jobs/8584950002?gh_jid=8584950002"
-  },
-  {
     "title": "Senior Manager, GTM FP&A",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -18,6 +7,17 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/8030354/?gh_jid=8030354"
+  },
+  {
+    "title": "Senior Associate, Strategic Finance",
+    "company": "Chime",
+    "location": "San Francisco, CA, USA",
+    "posted_days": 2,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/8584950002?gh_jid=8584950002"
   },
   {
     "title": "Sales Revenue Analyst - Boston",
