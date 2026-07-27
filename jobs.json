@@ -1,5 +1,25 @@
 [
   {
+    "title": "Strategic Finance Partner",
+    "company": "Stripe",
+    "location": "San Francisco",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [],
+    "url": "https://stripe.com/jobs/search?gh_jid=7577505"
+  },
+  {
+    "title": "Affirm Bank Strategic Finance Manager",
+    "company": "Affirm",
+    "location": "Remote US",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [
+      "Remote"
+    ],
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/7812990003"
+  },
+  {
     "title": "Sr. Associate, Corporate Finance",
     "company": "Chime",
     "location": "San Francisco, CA, USA",
@@ -9,15 +29,6 @@
       "Early-career"
     ],
     "url": "https://boards.greenhouse.io/chime/jobs/8548875002?gh_jid=8548875002"
-  },
-  {
-    "title": "Strategic Finance Partner",
-    "company": "Stripe",
-    "location": "San Francisco",
-    "posted_days": 4,
-    "salary": "—",
-    "tags": [],
-    "url": "https://stripe.com/jobs/search?gh_jid=7577505"
   },
   {
     "title": "FP&A Analyst - Data Insights",
@@ -49,14 +60,5 @@
       "Remote"
     ],
     "url": "https://job-boards.greenhouse.io/affirm/jobs/7702471003"
-  },
-  {
-    "title": "Sales Revenue Analyst - Boston",
-    "company": "Datadog",
-    "location": "Boston, Massachusetts, USA",
-    "posted_days": 10,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.datadoghq.com/detail/7587086/?gh_jid=7587086"
   }
 ]
