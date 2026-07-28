@@ -1,14 +1,5 @@
 [
   {
-    "title": "Strategic Finance Partner",
-    "company": "Stripe",
-    "location": "San Francisco",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [],
-    "url": "https://stripe.com/jobs/search?gh_jid=7577505"
-  },
-  {
     "title": "FP&A Analyst - Data Insights",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -27,10 +18,19 @@
     "url": "https://careers.datadoghq.com/detail/7587086/?gh_jid=7587086"
   },
   {
+    "title": "Strategic Finance Partner",
+    "company": "Stripe",
+    "location": "San Francisco",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [],
+    "url": "https://stripe.com/jobs/search?gh_jid=7577505"
+  },
+  {
     "title": "Affirm Bank Strategic Finance Manager",
     "company": "Affirm",
     "location": "Remote US",
-    "posted_days": 0,
+    "posted_days": 1,
     "salary": "—",
     "tags": [
       "Remote"
