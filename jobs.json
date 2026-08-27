@@ -1,18 +1,9 @@
 [
   {
-    "title": "Senior Principal, Marketing Strategic Finance & Analytics",
-    "company": "Airbnb",
-    "location": "United States ",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.airbnb.com/positions/7947164?gh_jid=7947164"
-  },
-  {
     "title": "FP&A Analyst - Data Insights",
     "company": "Datadog",
     "location": "New York, New York, USA",
-    "posted_days": 2,
+    "posted_days": 0,
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7964916/?gh_jid=7964916"
@@ -21,7 +12,7 @@
     "title": "Sales Revenue Analyst - Boston",
     "company": "Datadog",
     "location": "Boston, Massachusetts, USA",
-    "posted_days": 2,
+    "posted_days": 0,
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/7587086/?gh_jid=7587086"
@@ -30,16 +21,25 @@
     "title": "Sales Revenue Analyst - NYC",
     "company": "Datadog",
     "location": "New York, New York, USA",
-    "posted_days": 2,
+    "posted_days": 0,
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/8132294/?gh_jid=8132294"
   },
   {
+    "title": "Senior Principal, Marketing Strategic Finance & Analytics",
+    "company": "Airbnb",
+    "location": "United States ",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.airbnb.com/positions/7947164?gh_jid=7947164"
+  },
+  {
     "title": "Strategic Finance Partner",
     "company": "Stripe",
     "location": "San Francisco",
-    "posted_days": 8,
+    "posted_days": 9,
     "salary": "—",
     "tags": [],
     "url": "https://stripe.com/jobs/search?gh_jid=7577505"
@@ -48,7 +48,7 @@
     "title": "Strategic Finance Manager (Revenue)",
     "company": "Affirm",
     "location": "Remote Canada",
-    "posted_days": 8,
+    "posted_days": 9,
     "salary": "—",
     "tags": [
       "Remote"
@@ -59,7 +59,7 @@
     "title": "Strategic Finance Manager (Revenue)",
     "company": "Affirm",
     "location": "Remote US",
-    "posted_days": 8,
+    "posted_days": 9,
     "salary": "—",
     "tags": [
       "Remote"
