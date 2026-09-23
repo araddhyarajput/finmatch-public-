@@ -3,28 +3,10 @@
     "title": "FP&A Analyst",
     "company": "Datadog",
     "location": "New York, New York, USA",
-    "posted_days": 0,
+    "posted_days": 1,
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/8204554/?gh_jid=8204554"
-  },
-  {
-    "title": "Senior Principal, Marketing Strategic Finance & Analytics",
-    "company": "Airbnb",
-    "location": "United States ",
-    "posted_days": 4,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.airbnb.com/positions/7947164?gh_jid=7947164"
-  },
-  {
-    "title": "Sales Revenue Analyst - NYC",
-    "company": "Datadog",
-    "location": "New York, New York, USA",
-    "posted_days": 4,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.datadoghq.com/detail/8132294/?gh_jid=8132294"
   },
   {
     "title": "Principal, Strategic Finance & Analytics, Acquisition",
@@ -34,5 +16,23 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.airbnb.com/positions/8209984?gh_jid=8209984"
+  },
+  {
+    "title": "Senior Principal, Marketing Strategic Finance & Analytics",
+    "company": "Airbnb",
+    "location": "United States ",
+    "posted_days": 5,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.airbnb.com/positions/7947164?gh_jid=7947164"
+  },
+  {
+    "title": "Sales Revenue Analyst - NYC",
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "posted_days": 5,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.datadoghq.com/detail/8132294/?gh_jid=8132294"
   }
 ]
