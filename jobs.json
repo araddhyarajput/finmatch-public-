@@ -1,14 +1,5 @@
 [
   {
-    "title": "Finance & Strategy, Corporate Finance Analyst",
-    "company": "Stripe",
-    "location": "New York, NY",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [],
-    "url": "https://stripe.com/jobs/search?gh_jid=8249865"
-  },
-  {
     "title": "Principal, Strategic Finance & Analytics, Incubations",
     "company": "Airbnb",
     "location": "United States ",
@@ -16,6 +7,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.airbnb.com/positions/8259920?gh_jid=8259920"
+  },
+  {
+    "title": "Finance & Strategy, Corporate Finance Analyst",
+    "company": "Stripe",
+    "location": "New York, NY",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [],
+    "url": "https://stripe.com/jobs/search?gh_jid=8249865"
   },
   {
     "title": "Senior Associate, Strategic Finance",
