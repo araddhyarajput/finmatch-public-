@@ -1,14 +1,5 @@
 [
   {
-    "title": "Principal, Strategic Finance & Analytics, Acquisition",
-    "company": "Airbnb",
-    "location": "United States ",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.airbnb.com/positions/8209984?gh_jid=8209984"
-  },
-  {
     "title": "Strategic Finance & Analytics Intern (MBA)",
     "company": "Airbnb",
     "location": "United States",
@@ -16,6 +7,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://careers.airbnb.com/positions/8285171?gh_jid=8285171"
+  },
+  {
+    "title": "Principal, Strategic Finance & Analytics, Acquisition",
+    "company": "Airbnb",
+    "location": "United States ",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.airbnb.com/positions/8209984?gh_jid=8209984"
   },
   {
     "title": "Principal, Strategic Finance & Analytics, Technology",
@@ -57,7 +57,7 @@
     "title": "Senior Associate, Strategic Finance",
     "company": "Chime",
     "location": "San Francisco, CA, USA",
-    "posted_days": 8,
+    "posted_days": 9,
     "salary": "—",
     "tags": [
       "Early-career"
