@@ -22,15 +22,6 @@
     "url": "https://boards.greenhouse.io/chime/jobs/8895833002?gh_jid=8895833002"
   },
   {
-    "title": "FP&A Analyst GTM",
-    "company": "Datadog",
-    "location": "New York, New York, USA",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.datadoghq.com/detail/8312438/?gh_jid=8312438"
-  },
-  {
     "title": "Finance & Strategy, Corporate Finance Analyst",
     "company": "Stripe",
     "location": "New York, NY",
@@ -38,6 +29,15 @@
     "salary": "—",
     "tags": [],
     "url": "https://stripe.com/jobs/search?gh_jid=8249865"
+  },
+  {
+    "title": "FP&A Analyst GTM",
+    "company": "Datadog",
+    "location": "New York, New York, USA",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [],
+    "url": "https://careers.datadoghq.com/detail/8312438/?gh_jid=8312438"
   },
   {
     "title": "FP&A Analyst R&D",
@@ -70,7 +70,7 @@
     "title": "Principal, Strategic Finance & Analytics, Technology",
     "company": "Airbnb",
     "location": "United States ",
-    "posted_days": 9,
+    "posted_days": 10,
     "salary": "—",
     "tags": [],
     "url": "https://careers.airbnb.com/positions/8275416?gh_jid=8275416"
