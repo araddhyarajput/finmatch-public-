@@ -1,14 +1,5 @@
 [
   {
-    "title": "Finance & Strategy, Corporate Finance Analyst",
-    "company": "Stripe",
-    "location": "New York, NY",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [],
-    "url": "https://stripe.com/jobs/search?gh_jid=8249865"
-  },
-  {
     "title": "Senior Associate, Strategic Finance (Growth)",
     "company": "Chime",
     "location": "San Francisco, CA, USA",
@@ -29,10 +20,19 @@
     "url": "https://careers.datadoghq.com/detail/8312438/?gh_jid=8312438"
   },
   {
+    "title": "Finance & Strategy, Corporate Finance Analyst",
+    "company": "Stripe",
+    "location": "New York, NY",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [],
+    "url": "https://stripe.com/jobs/search?gh_jid=8249865"
+  },
+  {
     "title": "FP&A Analyst R&D",
     "company": "Datadog",
     "location": "New York, New York, USA",
-    "posted_days": 0,
+    "posted_days": 1,
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/8204554/?gh_jid=8204554"
@@ -68,7 +68,7 @@
     "title": "FP&A Analyst, Cloud Finance",
     "company": "Datadog",
     "location": "New York, New York, USA",
-    "posted_days": 9,
+    "posted_days": 10,
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/8267437/?gh_jid=8267437"
