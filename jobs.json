@@ -1,16 +1,5 @@
 [
   {
-    "title": "Senior Associate, Strategic Finance",
-    "company": "Chime",
-    "location": "San Francisco, CA, USA",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://boards.greenhouse.io/chime/jobs/8801438002?gh_jid=8801438002"
-  },
-  {
     "title": "Corporate and Strategic Finance, FP&A",
     "company": "Asana",
     "location": "San Francisco",
@@ -18,6 +7,17 @@
     "salary": "—",
     "tags": [],
     "url": "https://www.asana.com/jobs/apply/8282522?gh_jid=8282522"
+  },
+  {
+    "title": "Senior Associate, Strategic Finance",
+    "company": "Chime",
+    "location": "San Francisco, CA, USA",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/8801438002?gh_jid=8801438002"
   },
   {
     "title": "Senior Associate, Strategic Finance (Growth)",
@@ -58,15 +58,6 @@
     "url": "https://careers.datadoghq.com/detail/8204554/?gh_jid=8204554"
   },
   {
-    "title": "Principal, Strategic Finance & Analytics, Acquisition",
-    "company": "Airbnb",
-    "location": "United States ",
-    "posted_days": 8,
-    "salary": "—",
-    "tags": [],
-    "url": "https://careers.airbnb.com/positions/8209984?gh_jid=8209984"
-  },
-  {
     "title": "Strategic Finance & Analytics Intern (MBA)",
     "company": "Airbnb",
     "location": "United States",
@@ -76,12 +67,12 @@
     "url": "https://careers.airbnb.com/positions/8285171?gh_jid=8285171"
   },
   {
-    "title": "Principal, Strategic Finance & Analytics, Technology",
+    "title": "Principal, Strategic Finance & Analytics, Acquisition",
     "company": "Airbnb",
     "location": "United States ",
-    "posted_days": 10,
+    "posted_days": 9,
     "salary": "—",
     "tags": [],
-    "url": "https://careers.airbnb.com/positions/8275416?gh_jid=8275416"
+    "url": "https://careers.airbnb.com/positions/8209984?gh_jid=8209984"
   }
 ]
