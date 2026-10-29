@@ -9,15 +9,6 @@
     "url": "https://stripe.com/jobs/search?gh_jid=8249865"
   },
   {
-    "title": "Manager, Corporate Finance",
-    "company": "Chime",
-    "location": "San Francisco, CA, USA",
-    "posted_days": 1,
-    "salary": "—",
-    "tags": [],
-    "url": "https://boards.greenhouse.io/chime/jobs/8900582002?gh_jid=8900582002"
-  },
-  {
     "title": "Principal, Strategic Finance & Analytics - Membership",
     "company": "Airbnb",
     "location": "United States",
@@ -27,10 +18,19 @@
     "url": "https://careers.airbnb.com/positions/8329612?gh_jid=8329612"
   },
   {
+    "title": "Manager, Corporate Finance",
+    "company": "Chime",
+    "location": "San Francisco, CA, USA",
+    "posted_days": 2,
+    "salary": "—",
+    "tags": [],
+    "url": "https://boards.greenhouse.io/chime/jobs/8900582002?gh_jid=8900582002"
+  },
+  {
     "title": "Corporate and Strategic Finance, FP&A",
     "company": "Asana",
     "location": "San Francisco",
-    "posted_days": 4,
+    "posted_days": 5,
     "salary": "—",
     "tags": [],
     "url": "https://www.asana.com/jobs/apply/8282522?gh_jid=8282522"
@@ -39,7 +39,7 @@
     "title": "Senior Associate, Strategic Finance",
     "company": "Chime",
     "location": "San Francisco, CA, USA",
-    "posted_days": 5,
+    "posted_days": 6,
     "salary": "—",
     "tags": [
       "Early-career"
@@ -50,7 +50,7 @@
     "title": "Senior Associate, Strategic Finance (Growth)",
     "company": "Chime",
     "location": "San Francisco, CA, USA",
-    "posted_days": 5,
+    "posted_days": 6,
     "salary": "—",
     "tags": [
       "Early-career"
