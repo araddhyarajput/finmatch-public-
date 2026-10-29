@@ -1,5 +1,14 @@
 [
   {
+    "title": "Finance & Strategy, Corporate Finance Analyst",
+    "company": "Stripe",
+    "location": "New York, NY",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [],
+    "url": "https://stripe.com/jobs/search?gh_jid=8249865"
+  },
+  {
     "title": "Manager, Corporate Finance",
     "company": "Chime",
     "location": "San Francisco, CA, USA",
@@ -49,15 +58,6 @@
     "url": "https://boards.greenhouse.io/chime/jobs/8895833002?gh_jid=8895833002"
   },
   {
-    "title": "Finance & Strategy, Corporate Finance Analyst",
-    "company": "Stripe",
-    "location": "New York, NY",
-    "posted_days": 6,
-    "salary": "—",
-    "tags": [],
-    "url": "https://stripe.com/jobs/search?gh_jid=8249865"
-  },
-  {
     "title": "FP&A Analyst GTM",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -70,7 +70,7 @@
     "title": "FP&A Analyst R&D",
     "company": "Datadog",
     "location": "New York, New York, USA",
-    "posted_days": 6,
+    "posted_days": 7,
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/8204554/?gh_jid=8204554"
