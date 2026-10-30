@@ -12,10 +12,32 @@
     "title": "Manager, Corporate Finance",
     "company": "Chime",
     "location": "San Francisco, CA, USA",
-    "posted_days": 2,
+    "posted_days": 0,
     "salary": "—",
     "tags": [],
     "url": "https://boards.greenhouse.io/chime/jobs/8900582002?gh_jid=8900582002"
+  },
+  {
+    "title": "Senior Associate, Strategic Finance",
+    "company": "Chime",
+    "location": "San Francisco, CA, USA",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/8801438002?gh_jid=8801438002"
+  },
+  {
+    "title": "Senior Associate, Strategic Finance (Growth)",
+    "company": "Chime",
+    "location": "San Francisco, CA, USA",
+    "posted_days": 0,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/8895833002?gh_jid=8895833002"
   },
   {
     "title": "Principal, Strategic Finance & Analytics - Membership",
@@ -36,28 +58,6 @@
     "url": "https://www.asana.com/jobs/apply/8282522?gh_jid=8282522"
   },
   {
-    "title": "Senior Associate, Strategic Finance",
-    "company": "Chime",
-    "location": "San Francisco, CA, USA",
-    "posted_days": 6,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://boards.greenhouse.io/chime/jobs/8801438002?gh_jid=8801438002"
-  },
-  {
-    "title": "Senior Associate, Strategic Finance (Growth)",
-    "company": "Chime",
-    "location": "San Francisco, CA, USA",
-    "posted_days": 6,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://boards.greenhouse.io/chime/jobs/8895833002?gh_jid=8895833002"
-  },
-  {
     "title": "FP&A Analyst GTM",
     "company": "Datadog",
     "location": "New York, New York, USA",
@@ -70,7 +70,7 @@
     "title": "FP&A Analyst R&D",
     "company": "Datadog",
     "location": "New York, New York, USA",
-    "posted_days": 7,
+    "posted_days": 8,
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/8204554/?gh_jid=8204554"
