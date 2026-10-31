@@ -20,17 +20,6 @@
     "url": "https://boards.greenhouse.io/chime/jobs/8801438002?gh_jid=8801438002"
   },
   {
-    "title": "Senior Associate, Strategic Finance (Growth)",
-    "company": "Chime",
-    "location": "San Francisco, CA, USA",
-    "posted_days": 0,
-    "salary": "—",
-    "tags": [
-      "Early-career"
-    ],
-    "url": "https://boards.greenhouse.io/chime/jobs/8895833002?gh_jid=8895833002"
-  },
-  {
     "title": "Corporate and Strategic Finance, FP&A",
     "company": "Asana",
     "location": "San Francisco",
@@ -40,10 +29,21 @@
     "url": "https://www.asana.com/jobs/apply/8282522?gh_jid=8282522"
   },
   {
+    "title": "Senior Associate, Strategic Finance (Growth)",
+    "company": "Chime",
+    "location": "San Francisco, CA, USA",
+    "posted_days": 1,
+    "salary": "—",
+    "tags": [
+      "Early-career"
+    ],
+    "url": "https://boards.greenhouse.io/chime/jobs/8895833002?gh_jid=8895833002"
+  },
+  {
     "title": "Finance & Strategy, Corporate Finance Analyst",
     "company": "Stripe",
     "location": "New York, NY",
-    "posted_days": 1,
+    "posted_days": 2,
     "salary": "—",
     "tags": [],
     "url": "https://stripe.com/jobs/search?gh_jid=8249865"
@@ -70,7 +70,7 @@
     "title": "FP&A Analyst R&D",
     "company": "Datadog",
     "location": "New York, New York, USA",
-    "posted_days": 8,
+    "posted_days": 9,
     "salary": "—",
     "tags": [],
     "url": "https://careers.datadoghq.com/detail/8204554/?gh_jid=8204554"
